@@ -1,0 +1,547 @@
+class NMTFcoclus:
+    """ This class is for all algorithms Non-negative matrix tri-factorization 
+    that using in co-clustering """
+    
+    
+
+    def ODNMF(X, rank1, rank2, max_iter=100, F_init=None, G_init=None, S_init=None):
+        
+        """
+        Orthogonal Double Non negative matrix factorization (ODNMF)
+         
+        Co-clustering under Nonnegative Matrix Tri-Factorization
+        
+        Lazhar Labiod and Mohamed Nadif
+        
+        
+        Model
+        ---------
+        
+        X: array [m x n],  Data matrix.   
+        
+        X=FSG^{T}   The row-coefficient matrix F, 
+                    The block value matrix S,
+                    The column-coefficient matrix G
+                    
+        constraints: X,F,S,G>=0 and F.T F = G.T G =I
+        
+        
+        Parameters
+        ----------
+        X: array [m x n]
+            Data matrix.
+            
+        rank1: int_number of row cluster
+            Maximum rank of the row factor model.
+        rank2: int_number of column cluster
+            Maximum rank of the column factor model.
+            
+        max_iter: int
+            Maximum number of iterations.
+            
+        F_init: array [m x rank1]
+            Fixed initial raw basis matrix.
+        S_init: array [rank1 x rank2]
+            Fixed initial coefficient(summray) matrix.
+        G_init: array [n x rank2]
+            Fixed initial column basis matrix.
+
+        Returns
+        F: array [m x rank1]
+            Coefficient matrix (row clustering).
+        S: array [rank1 x rank2]
+            Basis matrix (patterns).
+        G:  array [n x rank2]
+           Coefficient matrix (column clustering).
+        """
+
+        m, n = X.shape
+        F = rand(m, rank1) if isinstance(F_init, type(None)) else F_init
+        #S = rand(rank1, rank2) if isinstance(S_init, type(None)) else S_init
+        G = rand(n, rank2) if isinstance(G_init, type(None)) else G_init
+
+
+        for itr in range(max_iter):
+            if isinstance(F_init, type(None)):
+                enum = X@G@G.T@X.T@F
+                denom = F@F.T@X@G@G.T@X.T@F
+                F = F * (enum/denom)
+
+            if isinstance(G_init, type(None)):
+                enum = X.T@F@F.T@X@G
+                denom = G@G.T@X.T@F@F.T@X@G
+                G = G * ((enum / denom)**0.5)
+                
+
+         #df DF and DG
+        DF = np.diag(F.sum(axis=0)**-.5)    # ----> DF^{-.5}
+        DG = np.diag(G.sum(axis=0)**-.5)     #----> DG^{-.5}
+
+        #Normalization  ----> X=F DF^-.5 (F DF^-.5)^{T}  X   (G DG^-.5) (G DG^-.5)^{T}
+
+        F = F@DF
+        #S = DF.dot(S).dot(np.linalg.inv(DG))  
+        G = G@DG   
+        S = F.T@X@G
+        soft_matrix = F@S@G.T
+        
+        F_indicator = np.zeros_like(F)
+        F_indicator[np.arange(len(F)), np.argpartition(F, -1, axis = 1)[:,-1]] = 1
+
+        G_indicator = np.zeros_like(G)
+        G_indicator[np.argpartition(G, -1, axis = 0)[-1,:], np.arange(len(G.T))] = 1
+        
+        hard_matrix = F_indicator.dot(S).dot(G_indicator.T)
+
+        return F_indicator, G_indicator, S,soft_matrix, hard_matrix, F.T@F, G.T@G
+    
+    def DNMF(X, rank1, rank2, max_iter=100, F_init=None, G_init=None, S_init=None):
+        
+        """
+        Double Non negative matrix factorization (DNMF)
+         
+        Co-clustering under Nonnegative Matrix Tri-Factorization
+        
+        Lazhar Labiod and Mohamed Nadif
+        
+        
+        Model
+        ---------
+        
+        X: array [m x n],  Data matrix.   
+        
+        X=FSG^{T}   The row-coefficient matrix F, 
+                    The block value matrix S,
+                    The column-coefficient matrix G
+                    
+        constraints: X,F,S,G>=0 
+        
+        
+        Parameters
+        ----------
+        X: array [m x n]
+            Data matrix.
+            
+        rank1: int_number of row cluster
+            Maximum rank of the row factor model.
+        rank2: int_number of column cluster
+            Maximum rank of the column factor model.
+            
+        max_iter: int
+            Maximum number of iterations.
+            
+        F_init: array [m x rank1]
+            Fixed initial raw basis matrix.
+        S_init: array [rank1 x rank2]
+            Fixed initial coefficient(summray) matrix.
+        G_init: array [n x rank2]
+            Fixed initial column basis matrix.
+
+        Returns
+        F: array [m x rank1]
+            Coefficient matrix (row clustering).
+        S: array [rank1 x rank2]
+            Basis matrix (patterns).
+        G:  array [n x rank2]
+           Coefficient matrix (column clustering).
+        """
+
+        m, n = X.shape
+        F = rand(m, rank1) if isinstance(F_init, type(None)) else F_init
+        #S = rand(rank1, rank2) if isinstance(S_init, type(None)) else S_init
+        G = rand(n, rank2) if isinstance(G_init, type(None)) else G_init
+
+
+        for itr in range(max_iter):
+            if isinstance(F_init, type(None)):
+                X_G = X@G@G.T
+                enum = 2*X@X_G.T@F
+                denom = F@F.T@X_G@X_G.T@F + X_G@X_G.T@F@F.T@F
+                F = F * (enum/denom)
+
+            if isinstance(G_init, type(None)):
+                X_F = F@F.T@X
+                enum = 2*X_F.T@X@G
+                denom = G@G.T@X_F.T@X_F@G + X_F.T@X_F@G@G.T@G
+                G = G * (enum / denom)
+                
+
+         #df DF and DG
+        DF = np.diag(F.sum(axis=0)**-.5)    # ----> DF^{-.5}
+        DG = np.diag(G.sum(axis=0)**-.5)     #----> DG^{-.5}
+
+        #Normalization  ----> X=F DF^-.5 (F DF^-.5)^{T}  X   (G DG^-.5) (G DG^-.5)^{T}
+
+        F = F@DF
+        #S = DF.dot(S).dot(np.linalg.inv(DG))  
+        G = G@DG   
+        S = F.T@X@G
+        soft_matrix = F@S@G.T
+        
+        F_indicator = np.zeros_like(F)
+        F_indicator[np.arange(len(F)), np.argpartition(F, -1, axis = 1)[:,-1]] = 1
+
+        G_indicator = np.zeros_like(G)
+        G_indicator[np.argpartition(G, -1, axis = 0)[-1,:], np.arange(len(G.T))] = 1
+        
+        hard_matrix = F_indicator.dot(S).dot(G_indicator.T)
+
+        return F_indicator, G_indicator, S,soft_matrix, hard_matrix, F.T@F, G.T@G
+    
+    def OSNMTF(X, rank1, rank2, mu=0, landa=0, max_iter=100, F_init=None, G_init=None,S_init=None):
+        """
+        Orthogonal Subspace Non-negative Matrix Tri Factorization (OSNMTF) 
+
+        Parameters
+        ----------
+        X: array [m x n]
+            Data matrix.
+            
+        rank1: int_number of row cluster
+            Maximum rank of the row factor model.
+        rank2: int_number of column cluster
+            Maximum rank of the column factor model.
+            
+        landa : int
+           raw Orthogonality regularization parameter.
+           
+        mu : int
+           column Orthogonality regularization parameter.
+           
+        max_iter: int
+            Maximum number of iterations.
+            
+        F_init: array [m x rank1]
+            Fixed initial row basis matrix.
+        S_init: array [rank1 x rank2]
+            Fixed initial coefficient(summray) matrix.
+        G_init: array [n x rank2]
+            Fixed initial column basis matrix.
+
+        Returns
+        F: array [m x rank1]
+            Coefficient matrix (row clustering).
+        S: array [rank1 x rank2]
+            Basis matrix (patterns).
+        G:  array [n x rank2]
+           Coefficient matrix (column clustering).
+        """
+
+        m, n = X.shape
+        F = rand(m, rank1) if isinstance(F_init, type(None)) else F_init
+        S = rand(rank1, rank2) if isinstance(S_init, type(None)) else S_init
+        G = rand(n, rank2) if isinstance(G_init, type(None)) else G_init
+        I1 = np.identity(rank1, dtype = None)
+        I2 = np.identity(rank2, dtype = None)
+        A1 = np.ones((rank1, rank1))
+        A2 = np.ones((rank2, rank2))
+        E = np.ones((m, n))
+
+
+        for itr in range(max_iter):
+            if isinstance(F_init, type(None)):
+                enum = ((X/F.dot(S).dot(G.T)).dot(G).dot(S.T))+2*landa*F.dot(I1/(F.T).dot(F))
+                denom = E.dot(G).dot(S.T)+2*landa*F.dot(A1)
+                F = F * (enum/denom)
+
+            if isinstance(G_init, type(None)):
+                enum = ((X/F.dot(S).dot(G.T)).T).dot(F).dot(S)+2*mu*G.dot(I2/(G.T).dot(G))
+                denom = (E.T).dot(F).dot(S)+2*mu*G.dot(A2)
+                G = G * (enum / denom)
+                
+            if isinstance(S_init, type(None)):
+                enum = (F.T).dot(X/F.dot(S).dot(G.T)).dot(G)
+                denom = (F.T).dot(E).dot(G)
+                S = S * (enum / denom)
+
+        #df DF and DG
+        DF = np.diag(F.sum(axis=0))
+        DG = np.diag(G.sum(axis=0)) #rank2*rank2
+
+        #Normalization
+
+        F = F.dot(np.linalg.inv(DF))
+        S = DF.dot(S).dot(np.linalg.inv(DG))
+        G = DG.dot(G.T)   #rank2*n
+        soft_matrix = F.dot(S).dot(G)
+        
+        F_indicator = np.zeros_like(F)
+        F_indicator[np.arange(len(F)), np.argpartition(F, -1, axis = 1)[:,-1]] = 1
+
+        G_indicator = np.zeros_like(G)
+        G_indicator[np.argpartition(G, -1, axis = 0)[-1,:], np.arange(len(G.T))] = 1
+        
+        hard_matrix = F_indicator.dot(S).dot(G_indicator)
+        
+        return F_indicator, G_indicator, S, soft_matrix, hard_matrix,  F.T.dot(F), G.T.dot(G)
+    
+    def NBVD(X, rank1, rank2, max_iter=100, F_init=None, G_init=None,S_init=None):
+        
+        """
+        Non negative block value decomposition (NBVD)
+        
+        Long, B., Zhang, Z., & Yu, P.S. (2005). Co-clustering by block value decomposition.
+        In Proceedings of the ACM SIGKDD conference on knowledge discovery and data mining (KDD).
+        Chicago, IL.
+        
+        
+        Model
+        ---------
+        
+        X: array [m x n],  Data matrix.   
+        
+        X=FSG^{T}   The row-coefficient matrix F, 
+                    The block value matrix S,
+                    The column-coefficient matrix G
+                    
+        constraints: X,F,S,G>=0
+           
+        Parameters
+        ----------
+        
+        rank1: int_number of row cluster
+            Maximum rank of the row factor model.
+        rank2: int_number of column cluster
+            Maximum rank of the column factor model.
+            
+        max_iter: int
+            Maximum number of iterations.
+            
+        F_init: array [m x rank1]
+            Fixed initial raw basis matrix.
+        S_init: array [rank1 x rank2]
+            Fixed initial coefficient(summray) matrix.
+        G_init: array [n x rank2]
+            Fixed initial column basis matrix.
+
+        Returns
+        F: array [m x rank1]
+            Coefficient matrix (row clustering).
+        S: array [rank1 x rank2]
+            Basis matrix (patterns).
+        G:  array [n x rank2]
+           Coefficient matrix (column clustering).
+        """
+
+        m, n = X.shape
+        F = rand(m, rank1) if isinstance(F_init, type(None)) else F_init
+        S = rand(rank1, rank2) if isinstance(S_init, type(None)) else S_init
+        G = rand(n, rank2) if isinstance(G_init, type(None)) else G_init
+
+
+        for itr in range(max_iter):
+            if isinstance(F_init, type(None)):
+                enum = X@G@S.T
+                denom = F@S@G.T@G@S.T
+                F = F * (enum/denom)
+
+            if isinstance(G_init, type(None)):
+                enum = X.T@F@S
+                denom = G@S.T@F.T@F@S
+                G = G * (enum / denom)
+                
+            if isinstance(S_init, type(None)):
+                enum = F.T@X@G
+                denom = F.T@F@S@G.T@G
+                S = S * (enum / denom)
+
+         #df DF and DG
+        DF = np.diag(F.sum(axis=0))
+        DG = np.diag(G.sum(axis=0)) #rank2*rank2
+
+        #Normalization
+
+        F = F.dot(np.linalg.inv(DF))
+        S = DF.dot(S).dot(np.linalg.inv(DG))
+        G = DG.dot(G.T)   #rank2*n
+        soft_matrix = F.dot(S).dot(G)
+        
+        F_indicator = np.zeros_like(F)
+        F_indicator[np.arange(len(F)), np.argpartition(F, -1, axis = 1)[:,-1]] = 1
+
+        G_indicator = np.zeros_like(G)
+        G_indicator[np.argpartition(G, -1, axis = 0)[-1,:], np.arange(len(G.T))] = 1
+        
+        hard_matrix = F_indicator.dot(S).dot(G_indicator)
+
+        return F_indicator, G_indicator, S, soft_matrix, hard_matrix, F.T@F, G.T@G
+    
+    def ONM3F(X, rank1, rank2, max_iter=100, F_init=None, G_init=None, S_init=None):
+        
+        """
+        Orthogonal Non negative matrix 3 factorization (ONM3F)
+         
+        Ding, C., Li, T., Peng, W., & Park, H. (2006). 
+        Orthogonal nonnegative matrix tri-factorizations for clustering.
+        In Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD).
+        Philadelphia, PA.
+        
+        Model
+        ---------
+        
+        X: array [m x n],  Data matrix.   
+        
+        X=FSG^{T}   The row-coefficient matrix F, 
+                    The block value matrix S,
+                    The column-coefficient matrix G
+                    
+        constraints: X,F,S,G>=0 and F.T F = G.T G =I
+        
+        
+        Parameters
+        ----------
+        X: array [m x n]
+            Data matrix.
+            
+        rank1: int_number of row cluster
+            Maximum rank of the row factor model.
+        rank2: int_number of column cluster
+            Maximum rank of the column factor model.
+            
+        max_iter: int
+            Maximum number of iterations.
+            
+        F_init: array [m x rank1]
+            Fixed initial raw basis matrix.
+        S_init: array [rank1 x rank2]
+            Fixed initial coefficient(summray) matrix.
+        G_init: array [n x rank2]
+            Fixed initial column basis matrix.
+
+        Returns
+        F: array [m x rank1]
+            Coefficient matrix (row clustering).
+        S: array [rank1 x rank2]
+            Basis matrix (patterns).
+        G:  array [n x rank2]
+           Coefficient matrix (column clustering).
+        """
+
+        m, n = X.shape
+        F = rand(m, rank1) if isinstance(F_init, type(None)) else F_init
+        S = rand(rank1, rank2) if isinstance(S_init, type(None)) else S_init
+        G = rand(n, rank2) if isinstance(G_init, type(None)) else G_init
+
+
+        for itr in range(max_iter):
+            if isinstance(F_init, type(None)):
+                enum = X@G@S.T
+                denom = F@F.T@X@G@S.T
+                F = F * ((enum/denom)**0.5)
+
+            if isinstance(G_init, type(None)):
+                enum = X.T@F@S
+                denom = G@G.T@X.T@F@S
+                G = G * ((enum / denom)**0.5)
+                
+            if isinstance(S_init, type(None)):
+                enum = F.T@X@G
+                denom = F.T@F@S@G.T@G
+                S = S * ((enum / denom)**0.5)
+
+         #df DF and DG
+        DF = np.diag(F.sum(axis=0))
+        DG = np.diag(G.sum(axis=0)) #rank2*rank2
+
+        #Normalization
+
+        F = F.dot(np.linalg.inv(DF))
+        S = DF.dot(S).dot(np.linalg.inv(DG))
+        G = DG.dot(G.T)   #rank2*n
+        soft_matrix = F.dot(S).dot(G)
+        
+        F_indicator = np.zeros_like(F)
+        F_indicator[np.arange(len(F)), np.argpartition(F, -1, axis = 1)[:,-1]] = 1
+
+        G_indicator = np.zeros_like(G)
+        G_indicator[np.argpartition(G, -1, axis = 0)[-1,:], np.arange(len(G.T))] = 1
+        
+        hard_matrix = F_indicator.dot(S).dot(G_indicator)
+
+        return F_indicator, G_indicator, S,soft_matrix, hard_matrix, F.T@F, G.T@G
+    
+    def ONMTF(X, rank1, rank2, max_iter=100, F_init=None, G_init=None, S_init=None):
+        
+        """
+        Orthogonal Non negative matrix Tri factorization (ONMTF)
+        
+        Orthogonal nonnegative matrix tri-factorization for co-clustering:
+        Multiplicative updates on Stiefel manifolds
+        
+        Jiho Yoo, Seungjin Choi
+        
+        Parameters
+        ----------
+        X: array [m x n]
+            Data matrix.
+            
+        rank1: int_number of row cluster
+            Maximum rank of the row factor model.
+        rank2: int_number of column cluster
+            Maximum rank of the column factor model.
+            
+        max_iter: int
+            Maximum number of iterations.
+            
+        F_init: array [m x rank1]
+            Fixed initial raw basis matrix.
+        S_init: array [rank1 x rank2]
+            Fixed initial coefficient(summray) matrix.
+        G_init: array [n x rank2]
+            Fixed initial column basis matrix.
+
+        Returns
+        F: array [m x rank1]
+            Coefficient matrix (row clustering).
+        S: array [rank1 x rank2]
+            Basis matrix (patterns).
+        G:  array [n x rank2]
+           Coefficient matrix (column clustering).
+        """
+
+        m, n = X.shape
+        F = rand(m, rank1) if isinstance(F_init, type(None)) else F_init
+        S = rand(rank1, rank2) if isinstance(S_init, type(None)) else S_init
+        G = rand(n, rank2) if isinstance(G_init, type(None)) else G_init
+
+
+        for itr in range(max_iter):
+            if isinstance(F_init, type(None)):
+                enum = X@G@S.T
+                denom = F@S@G.T@X.T@F
+                F = F * (enum/denom)
+
+            if isinstance(G_init, type(None)):
+                enum = X.T@F@S
+                denom = G@S.T@F.T@X@G
+                G = G * (enum / denom)
+                
+            if isinstance(S_init, type(None)):
+                enum = F.T@X@G
+                denom = F.T@F@S@G.T@G
+                S = S * (enum / denom)
+
+                
+        #df DF and DG
+        DF = np.diag(F.sum(axis=0))
+        DG = np.diag(G.sum(axis=0)) #rank2*rank2
+
+        #Normalization
+
+        F = F.dot(np.linalg.inv(DF))
+        S = DF.dot(S).dot(np.linalg.inv(DG))
+        G = DG.dot(G.T)   #rank2*n
+        soft_matrix = F.dot(S).dot(G)
+        
+        F_indicator = np.zeros_like(F)
+        F_indicator[np.arange(len(F)), np.argpartition(F, -1, axis = 1)[:,-1]] = 1
+
+        G_indicator = np.zeros_like(G)
+        G_indicator[np.argpartition(G, -1, axis = 0)[-1,:], np.arange(len(G.T))] = 1
+        
+        hard_matrix = F_indicator.dot(S).dot(G_indicator)
+
+
+        return F_indicator, G_indicator, S, soft_matrix, hard_matrix, F_indicator.T@F_indicator, G_indicator.T@G_indicator
+
+    
