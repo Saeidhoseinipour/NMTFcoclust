@@ -11,6 +11,7 @@ where $n$, $m$, $g\leqslant n$ and $s\leqslant m$ are the number of rows, column
 ### Brief description 
 NMTFcoclust library implements three proposed algorithms and other orthogonal NMTF:
 - $OPNMTF_{\alpha}$ 
+> This is blockquote text
 - $ONMTF_{\alpha}$
 - $NMTF_{\alpha}$
 - $NBVD$
