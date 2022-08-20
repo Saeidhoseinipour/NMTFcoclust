@@ -10,10 +10,12 @@ where $n$, $m$, $g\leqslant n$ and $s\leqslant m$ are the number of rows, column
 
 ### Brief description 
 NMTFcoclust library implements three proposed algorithms and other orthogonal NMTF:
-- Several datasets 
-- Tensor co-clustering with various data type
-- Tensor decomposition and clustering
-- Visualization
+- $OPNMTF_{\alpha}$ 
+- $ONMTF_{\alpha}$
+- $NMTF_{\alpha}$
+- $NBVD$
+- $ONM3T$
+- $ODNMTF$
 
 ### Requirements
 ```python
