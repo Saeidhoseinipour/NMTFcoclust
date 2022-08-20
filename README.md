@@ -39,6 +39,8 @@ tensorly==0.4.5
 
 ### Datasets
 
+- [CSTR Data set](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Datasets/cstr.mat)
+
 ### References
 
 [1] L. Labiod, M. Nadif, Co-clustering under nonnegative matrix tri-factorization.
