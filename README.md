@@ -5,6 +5,7 @@
      $$\mathbf{X} \approx \mathbf{FSG}^{T}$$
 where $n$, $m$, $g\leqslant n$ and $s\leqslant m$ are the number of rows, columns, row clusters and column clusters, respectively.
 
+Doc/Image/nmtf3.png
 ### Brief description 
 TensorClus library provides multiple functionalities:
 - Several datasets 
