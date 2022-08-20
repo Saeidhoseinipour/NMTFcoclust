@@ -6,11 +6,10 @@
 where $n$, $m$, $g\leqslant n$ and $s\leqslant m$ are the number of rows, columns, row clusters and column clusters, respectively.
 
 
-![NMTF](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/Doc/Image/nmtf3.png?raw=true)
-[![N|Solid](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/Doc/Image/nmtf3.png?raw=true)]
+![NMTF](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/nmtf3.png?raw=true)
 
 ### Brief description 
-TensorClus library provides multiple functionalities:
+NMTFcoclust library implements three proposed algorithms and other orthogonal NMTF:
 - Several datasets 
 - Tensor co-clustering with various data type
 - Tensor decomposition and clustering
