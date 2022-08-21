@@ -11,7 +11,9 @@ where $n$, $m$, $g\leqslant n$ and $s\leqslant m$ are the number of rows, column
 ### Brief description 
 NMTFcoclust library implements three proposed algorithms and other orthogonal NMTF:
 - $OPNMTF_{\alpha}$ 
- $$D_{\alpha}(\mathbf{X} ||\mathbf{FSG^{T}})+ \mu D_{\alpha}(\mathbf{I}_{g} ||\mathbf{FSG^{T}})+ \lambda D_{\alpha}(\mathbf{I}_{s} ||\mathbf{FSG^{T}})$$
+$$
+D_{\alpha}(\mathbf{X} ||\mathbf{FSG^{T}})+ \mu D_{\alpha}(\mathbf{I}_{g} ||\mathbf{FSG^{T}})+ \lambda D_{\alpha}(\mathbf{I}_{s} ||\mathbf{FSG^{T}})
+$$
 - $ONMTF_{\alpha}$
 - $NMTF_{\alpha}$
 - $NBVD$
@@ -26,13 +28,8 @@ scipy==1.4.1
 matplotlib==3.0.3
 scikit-learn==0.22.2.post1
 coclust==0.2.1
-tensorD==0.1
-tensorflow==2.3.0
-tensorflow-gpu==2.3.0
-tensorflow-estimator==2.3.0
-tensorly==0.4.5
 ```
-### Installing TensorClus
+### Installing NMTFcoclust
 
 ### License
 
