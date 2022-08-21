@@ -2,7 +2,7 @@
 ### **NMTFcocluster** (Non-negative Matrix Tri-Factorization for coclustering) is a library that implements decomposition on a data matrix $\mathbf{X}$ (document-word matrix and so on) with finding three  matrices $\mathbf{F}$ (roles membership rows), $\mathbf{G}$ (roles membership columns) and $\mathbf{S}$ (roles summary matrix) based optimazed $\alpha$-divergence.
 
  The low-rank approximation of $\mathbf{X}$ by
-     $$\mathbf{X} \approx \mathbf{FSG}^{T}) $$
+     $$\mathbf{X} \approx \mathbf{FSG}^{T} $$
 where $n$, $m$, $g\leqslant n$ and $s\leqslant m$ are the number of rows, columns, row clusters and column clusters, respectively.
 
 
@@ -11,7 +11,7 @@ where $n$, $m$, $g\leqslant n$ and $s\leqslant m$ are the number of rows, column
 ### Brief description 
 NMTFcoclust library implements three proposed algorithms and other orthogonal NMTF:
 - $OPNMTF_{\alpha}$ 
- $$D_{\alpha}(\mathbf{X} ||\mathbf{FSG^{T}} $$
+ $$D_{\alpha}(\mathbf{X} ||\mathbf{FSG^{T}})+ \mu D_{\alpha}(\mathbf{X} ||\mathbf{FSG^{T}}+ \mu D_{\alpha}(\mathbf{X} ||\mathbf{FSG^{T}} $$
 - $ONMTF_{\alpha}$
 - $NMTF_{\alpha}$
 - $NBVD$
