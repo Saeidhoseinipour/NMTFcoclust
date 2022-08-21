@@ -11,9 +11,7 @@ where $n$, $m$, $g\leqslant n$ and $s\leqslant m$ are the number of rows, column
 ### Brief description 
 NMTFcoclust library implements three proposed algorithms and other orthogonal NMTF:
 - $OPNMTF_{\alpha}$ 
- $$
- D_{\alpha}
- $$
+ $$D_{\alpha}$$
 - $ONMTF_{\alpha}$
 - $NMTF_{\alpha}$
 - $NBVD$
