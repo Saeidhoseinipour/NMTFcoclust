@@ -32,7 +32,7 @@ tensorflow-gpu==2.3.0
 tensorflow-estimator==2.3.0
 tensorly==0.4.5
 ```
-### Installing TensorClus
+### Installing NMTFcoclust
 
 ### License
 
