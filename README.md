@@ -40,6 +40,18 @@ tensorly==0.4.5
 
 ### Datasets
 
+| Datasets | Documents | Words | Sporsity | Number of clusters |
+| -- | ----------- | -- | -- | -- |
+| CSTR | 475 | 1000 | 96% | 4 |
+| WebACE |2340  |1000  | 91.83% |20  |  |
+| Classic3 |3891  |4303  |98%  |3  |  |
+| Classic4 |7095  |5896  | 99.41% |4  |  |
+| Sports |8580  |14870  | 99.99% |7  |  |
+| Reviews |4069  |18483  | 99.99% |5  |  |
+| RCV1 |9625  |29992  | 99.75% |4  |  |
+| Ng20 |19949  | 43586 | 99.99% |20  |  |
+
+
 - [CSTR](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Datasets/cstr.mat)
 - [Classic3](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Datasets/classic3.mat)
 - [RCV1_4Class](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Datasets/RCV1_4Class.mat)
