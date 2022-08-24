@@ -21,7 +21,9 @@ NMTFcoclust library implements three proposed algorithms and other orthogonal NM
 - $NBVD$
  $$||\mathbf{X}-\mathbf{FSG}^{T}||^{2}$$
 - $ONM3T$
+ $$||\mathbf{X}-\mathbf{FSG}^{T}||^{2}$$
 - $ODNMTF$
+ $$||\mathbf{X}-\mathbf{FF^{T}XGG}^{T}||^{2}$$
 
 ### Requirements
 ```python
