@@ -11,9 +11,9 @@ where $n$, $m$, $g\leqslant n$ and $s\leqslant m$ are the number of rows, column
 ### Brief description 
 NMTFcoclust library implements three proposed algorithms and other orthogonal NMTF:
 - $OPNMTF_{\alpha}$ 
- $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{T})+ \lambda D_{\alpha}(\mathbf{I} ||\mathbf{F^{T}F})+ \mu D_{\alpha}(\mathbf{I}_{s} ||\mathbf{G}^{T}\mathbf{G})$$
+ $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{T})+ \lambda D_{\alpha}(\mathbf{I}_{g} ||\mathbf{F^{T}F})+ \mu D_{\alpha}(\mathbf{I}_{s} ||\mathbf{G}^{T}\mathbf{G})$$
 - $ONMTF_{\alpha}$
-   $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{T})+ \delta D_{\alpha}(\mathbf{I} ||\mathbf{FSG^{T}})+ \beta D_{\alpha}(\mathbf{I} ||\mathbf{FSG}^{T}) 
+   $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{T})+ \delta \text{Tr}(\mathbf{F}\bm{\Psi}_{g}\mathbf{F}^{T}) +	\beta \text{Tr}(\mathbf{G}\bm{\Psi}_{s}\mathbf{G}^{T})$$
 - $NMTF_{\alpha}$
 - $NBVD$
 - $ONM3T$
