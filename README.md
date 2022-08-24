@@ -11,6 +11,7 @@ where $n$, $m$, $g\leqslant n$ and $s\leqslant m$ are the number of rows, column
 ### Brief description 
 NMTFcoclust library implements three proposed algorithms and other orthogonal NMTF:
 - $OPNMTF_{\alpha}$ 
+  
   $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{T})+ 
       \lambda D_{\alpha}(\mathbf{I}_{g}||\mathbf{F}^{T}\mathbf{F})+\mu $$  
 - $ONMTF_{\alpha}$
@@ -32,11 +33,7 @@ scipy==1.4.1
 matplotlib==3.0.3
 scikit-learn==0.22.2.post1
 coclust==0.2.1
-tensorD==0.1
-tensorflow==2.3.0
-tensorflow-gpu==2.3.0
-tensorflow-estimator==2.3.0
-tensorly==0.4.5
+
 ```
 ### Installing NMTFcoclust
 
@@ -51,22 +48,14 @@ tensorly==0.4.5
 | [CSTR](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Datasets/cstr.mat) | 475 | 1000 | 96% | 4 |
 | [WebACE](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Datasets/WebACE..mat) |2340  |1000  | 91.83% |20  |  |
 | [Classic3](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Datasets/classic3.mat) |3891  |4303  |98%  |3  |  |
-| Classic4 |7095  |5896  | 99.41% |4  |  |
 | [Sports](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Datasets/sports..mat) |8580  |14870  | 99.99% |7  |  |
 | [Reviews](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Datasets/reviews..mat) |4069  |18483  | 99.99% |5  |  |
 | [RCV1_4Class](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Datasets/RCV1_4Class.mat) |9625  |29992  | 99.75% |4  |  |
 | [NG20](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Datasets/NG20..mat) |19949  | 43586 | 99.99% |20  |  |
 
 
-- 
-- 
-- 
 - [20Newsgroups](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Datasets/20Newsgroups.mat)
-- 
 - [TDT2](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Datasets/TDT2..mat)
-- 
-- 
-- 
 - [Reuters21578](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Datasets/Reuters21578..mat)
 - [RCV1_ori](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Datasets/RCV1_ori..mat)
 
