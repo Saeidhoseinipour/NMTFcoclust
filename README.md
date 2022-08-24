@@ -13,7 +13,7 @@ NMTFcoclust library implements three proposed algorithms and other orthogonal NM
 - $OPNMTF_{\alpha}$ 
  $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{T})+ \lambda D_{\alpha}(\mathbf{I}_{g} ||\mathbf{F^{T}F})+ \mu D_{\alpha}(\mathbf{I}_{s} ||\mathbf{G}^{T}\mathbf{G})$$
 - $ONMTF_{\alpha}$
-   $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{T})+ \delta \text{Tr}(\mathbf{F}\bm{\Psi}_{g}\mathbf{F}^{T}) +	\beta \text{Tr}(\mathbf{G}\bm{\Psi}_{s}\mathbf{G}^{T})$$
+   $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{T})+ \delta Tr(\mathbf{F}\Psi_{g}\mathbf{F}^{T}) +	\beta Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{T})$$
 - $NMTF_{\alpha}$
 - $NBVD$
 - $ONM3T$
