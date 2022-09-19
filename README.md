@@ -62,4 +62,4 @@ coclust==0.2.1
 
 ### References
 
-[1] L. Labiod, M. Nadif, Co-clustering under nonnegative matrix tri-factorization.
+%%[1] L. Labiod, M. Nadif, Co-clustering under nonnegative matrix tri-factorization.
