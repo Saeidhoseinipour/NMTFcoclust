@@ -9,7 +9,7 @@ where $n$, $m$, $g \leqslant n$ and $s \leqslant m$ are the number of rows, colu
 ![NMTF](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/nmtf3.png?raw=true)
 
 ### Brief description 
-NMTFcoclust library implements three proposed algorithms and other orthogonal NMTF:
+NMTFcoclust implements three proposed algorithms and other orthogonal NMTF:
 - $OPNMTF_{\alpha}$ 
   
   $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{T})+ 
