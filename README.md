@@ -8,6 +8,7 @@ where $n$, $m$, $g \leqslant n$ and $s \leqslant m$ are the number of rows, colu
 
 ![NMTF](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/nmtf3.png?raw=true)
 
+
 ### Brief description 
 NMTFcoclust implements three proposed algorithms and other orthogonal NMTF:
 - $OPNMTF_{\alpha}$ 
@@ -40,6 +41,9 @@ coclust==0.2.1
 ### License
 
 ### Examples
+
+
+![WC](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/WC_1_5_bold_31_32_11_22_33_v2.png?raw=true)
 
 ### Datasets
 
