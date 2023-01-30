@@ -42,6 +42,7 @@ coclust==0.2.1
 
 ### Examples
 
+![DC-WC](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/DC1-WC1.pdf?raw=true)
 
 ![WC](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/WC_1_5_bold_31_32_11_22_33_v2.png?raw=true)
 
