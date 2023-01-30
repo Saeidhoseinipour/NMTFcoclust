@@ -13,18 +13,18 @@ where $n$, $m$, $g \leqslant n$ and $s \leqslant m$ are the number of rows, colu
 NMTFcoclust implements three proposed algorithms and other orthogonal NMTF:
 - $OPNMTF_{\alpha}$ 
   
-  $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{T})+ 
-      \lambda D_{\alpha}(\mathbf{I}_{g}||\mathbf{F}^{T}\mathbf{F})+\mu D_{\alpha}(\mathbf{I}_{s}||\mathbf{G}^{T}\mathbf{G}) $$  
+  $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+ 
+      \lambda D_{\alpha}(\mathbf{I}_{g}||\mathbf{F}^{\top}\mathbf{F})+\mu D_{\alpha}(\mathbf{I}_{s}||\mathbf{G}^{\top}\mathbf{G}) $$  
 - $ONMTF_{\alpha}$
-   $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{T})+ \delta Tr(\mathbf{F}\Psi_{g}\mathbf{F}^{T}) +	\beta Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{T})$$
+   $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+ \delta Tr(\mathbf{F}\Psi_{g}\mathbf{F}^{\top}) +	\beta Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{\top})$$
 - $NMTF_{\alpha}$
- $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{T})$$ 
+ $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})$$ 
 - $NBVD$
- $$||\mathbf{X}-\mathbf{FSG}^{T}||^{2}$$
+ $$||\mathbf{X}-\mathbf{FSG}^{\top}||^{2}$$
 - $ONM3T$
- $$||\mathbf{X}-\mathbf{FSG}^{T}||^{2}$$
+ $$||\mathbf{X}-\mathbf{FSG}^{\top}||^{2}$$
 - $ODNMTF$
- $$||\mathbf{X}-\mathbf{FF^{T}XGG}^{T}||^{2}$$
+ $$||\mathbf{X}-\mathbf{FF^{\top}XGG}^{\top}||^{2}$$
 
 ### Requirements
 ```python
