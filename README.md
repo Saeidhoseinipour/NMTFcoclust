@@ -14,7 +14,7 @@ NMTFcoclust implements three proposed algorithms and other orthogonal NMTF:
 - $OPNMTF_{\alpha}$ 
 ```math
 D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
-  \lambda D_{\alpha}(\mathbf{I}_{g}||\mathbf{F}^{\top}\mathbf{F})+
+  \lambda \; D_{\alpha}(\mathbf{I}_{g}||\mathbf{F}^{\top}\mathbf{F})+
   \mu D_{\alpha}(\mathbf{I}_{s}||\mathbf{G}^{\top}\mathbf{G})
 ```
 - $ONMTF_{\alpha}$
