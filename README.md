@@ -35,7 +35,7 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
 ```
 - $NBVD$
  $$||\mathbf{X}-\mathbf{FSG}^{\top}||^{2}$$
-- $ONM3T$
+- [$ONM3T$](https://dl.acm.org/doi/abs/10.1145/1150402.1150420)
 ```math
 	||\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}||^{2}+ 
  Tr(\Lambda (\mathbf{F}^{\top}\mathbf{F}-\mathbf{I}_{s}))+ 
@@ -162,7 +162,7 @@ Please cite the following paper in your publication if you are using [NMTFcoclus
 [2] Yoo et al, Orthogonal nonnegative matrix tri-factorization for co-clustering: Multiplicative updates on Stiefel manifolds (2010), 
 	Information Processing and Management. [ONMTF](https://www.sciencedirect.com/science/article/abs/pii/S0306457310000038)
 	
-[3] Ding et al, Orthogonal nonnegative matrix tri-factorizations for clustering (2008), Proceedings of the 12th ACM SIGKDD International Conference on Knowledge 	Discovery and Data Mining.
+[3] Ding et al, Orthogonal nonnegative matrix tri-factorizations for clustering (2008), Proceedings of the 12th ACM SIGKDD International Conference on Knowledge 	Discovery and Data Mining. [ONM3F](https://dl.acm.org/doi/abs/10.1145/1150402.1150420)
 
 [4] Long et al, Co-clustering by block value decomposition (2005), Proceedings of the Eleventh ACM SIGKDD International Conference on Knowledge Discovery in Data 	Mining.
 
