@@ -25,7 +25,7 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
 ```
 - $NMTF_{\alpha}$
  $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})$$ 
-- [PNMTF](https://www.sciencedirect.com/science/article/abs/pii/S0957417417300283)
+- [$PNMTF$](https://www.sciencedirect.com/science/article/abs/pii/S0957417417300283)
 ```math
  0.5||\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}||^{2}+0.5 \tau \; Tr(\mathbf{F} \Psi_{g}\mathbf{F}^{\top})+0.5 \eta \; Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{\top})+ 0.5 \gamma \; Tr(\mathbf{S}^{\top}\mathbf{S})
 ```
