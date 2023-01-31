@@ -37,7 +37,6 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
  Tr(\Lambda (\mathbf{F}^{\top}\mathbf{F}-\mathbf{I}_{s}))+ 
  Tr(\Gamma (\mathbf{G}^{\top}\mathbf{G}-\mathbf{I}_{g}))
 ```
- $$||\mathbf{X}-\mathbf{FSG}^{\top}||^{2}$$
 - $ODNMTF$
 ```math
  ||\mathbf{X}-\mathbf{FF^{\top}XGG}^{\top}||^{2}+ Tr(\Lambda \mathbf{F}^{\top})+ Tr( \Gamma \mathbf{G}^{\top})
