@@ -34,9 +34,9 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
 - $ONM3T$
  $$||\mathbf{X}-\mathbf{FSG}^{\top}||^{2}$$
 - $ODNMTF$
- ```math
+```math
  ||\mathbf{X}-\mathbf{FF^{\top}XGG}^{\top}||^{2}+ Tr(\varLambda \mathbf{F}^{\top})+ Tr( \Gamma \mathbf{G}^{\top})
- ```
+```
 
 ### Requirements
 ```python
