@@ -29,6 +29,10 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
 ```math
  0.5||\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}||^{2}+0.5 \tau \; Tr(\mathbf{F} \Psi_{g}\mathbf{F}^{\top})+0.5 \eta \; Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{\top})+ 0.5 \gamma \; Tr(\mathbf{S}^{\top}\mathbf{S})
 ```
+- [$ONMTF$](https://www.sciencedirect.com/science/article/abs/pii/S0306457310000038)
+```math
+	0.5 ||\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}||^{2}
+```
 - $NBVD$
  $$||\mathbf{X}-\mathbf{FSG}^{\top}||^{2}$$
 - $ONM3T$
@@ -156,7 +160,7 @@ Please cite the following paper in your publication if you are using [NMTFcoclus
 [1] Wang et al, Penalized nonnegative matrix tri-factorization for co-clustering (2017), Expert Systems with Applications. [PNMTF](https://www.sciencedirect.com/science/article/abs/pii/S0957417417300283)
 
 [2] Yoo et al, Orthogonal nonnegative matrix tri-factorization for co-clustering: Multiplicative updates on Stiefel manifolds (2010), 
-	Information Processing and Management.
+	Information Processing and Management. [ONMTF](https://www.sciencedirect.com/science/article/abs/pii/S0306457310000038)
 	
 [3] Ding et al, Orthogonal nonnegative matrix tri-factorizations for clustering (2008), Proceedings of the 12th ACM SIGKDD International Conference on Knowledge 	Discovery and Data Mining.
 
