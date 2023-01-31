@@ -153,3 +153,4 @@ Please cite the following paper in your publication if you are using [NMTFcoclus
 ```
 ### References
 
+[1] Penalized nonnegative matrix tri-factorization for co-clustering
