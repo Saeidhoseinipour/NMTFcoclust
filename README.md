@@ -41,6 +41,10 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
 ```math
  ||\mathbf{X}-\mathbf{FF^{\top}XGG}^{\top}||^{2}+ Tr(\Lambda \mathbf{F}^{\top})+ Tr( \Gamma \mathbf{G}^{\top})
 ```
+- $DNMTF$
+```math
+ ||\mathbf{X}-\mathbf{FF^{\top}XGG}^{\top}||^{2}
+```
 
 ### Requirements
 ```python
