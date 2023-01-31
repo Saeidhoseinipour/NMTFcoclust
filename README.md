@@ -83,6 +83,8 @@ print(confusion_matrix(true_labels, true_labels))
 
 
 ```
+
+## Model
 ```python
 from NMTFcoclust.Models.NMTFcoclust_OPNMTF_alpha_2 import OPNMTF
 from NMTFcoclust.Evaluation.EV import Process_EV
@@ -97,11 +99,11 @@ start = timeit.default_timer()
 #start_time = datetime.now()
                                                               # do your work here
 #print(X_Classic3.shape)
-OPNMTF_alpha = OPNMTF(n_row_clusters = 4, n_col_clusters = 4, landa = 0.3,  mu = 0.3,  alpha = 0.4, max_iter=1)
-OPNMTF_alpha.fit(X_CSTR_sum_1)
+OPNMTF_alpha = OPNMTF(n_row_clusters = 3, n_col_clusters = 3, landa = 0.3,  mu = 0.3,  alpha = 0.4, max_iter=1)
+OPNMTF_alpha.fit(X_Classic3_sum_1)
 #end_time = datetime.now()
 #print('Duration: {}'.format(end_time - start_time))
-Process_Ev = Process_EV( true_labels ,X_CSTR_sum_1, OPNMTF_alpha) 
+Process_Ev = Process_EV( true_labels ,X_Classic3_sum_1, OPNMTF_alpha) 
 
 
 
@@ -110,25 +112,23 @@ stop = timeit.default_timer()
 print('Total Time: ', stop - start)  
 
 
-
-Accuracy (Acc):0.8641038961038962
-Normalized Mutual Info (NMI):0.7485620942703556
-Adjusted Rand Index (ARI):0.7016008180974826
-Adjusted Mutual Info (AMI):0.7484768514202804
-MSE_1:0.004073950544869352
-MSE_2:4.359943449115256e-08
-Silhouette score :-0.00032009818909529644
-Calinski harabasz score:1.0886938337248273
-Davies bouldin score :68.15461324333005
-Intra-cluster Average Similarity (IAS):0.03785009029322996
-Inter-cluster Centroids Average Similarity (ICAS):0.5448343292581849
-Runtime:68.81687170000009
+Accuracy (Acc):0.9100488306347982
+Normalized Mutual Info (NMI):0.7703948803438703
+Adjusted Rand Index (ARI):0.7641161476685447
+Adjusted Mutual Info (AMI):0.7702867787943636
+MSE_1:0.013438939646774076
+MSE_2:1.9442203497613212e-06
+Silhouette score :-0.00489168197441187
+Calinski harabasz score:1.0674645595237953
+Davies bouldin score :46.64486662470455
+Intra-cluster Average Similarity (IAS):0.027380015679156534
+Inter-cluster Centroids Average Similarity (ICAS):0.335635399782488
+Runtime:4.049925799999983
 Confusion matrix   (CM):
-[[2022    0    0    0]
- [ 374 1690    0    0]
- [   0  675 2226    0]
- [   0    0  259 2379]]
-Total Time:  570.3026817999998
+[[1033    0    0]
+ [ 276 1184    0]
+ [   0   74 1324]]
+Total Time:  26.558243700000276
 ```
 
 ![WC](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/WC_1_5_bold_31_32_11_22_33_v2.png?raw=true)
