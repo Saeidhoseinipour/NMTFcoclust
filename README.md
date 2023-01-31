@@ -41,16 +41,51 @@ coclust==0.2.1
 ### Examples
 
 ```python
-from transformers import AutoConfig, AutoTokenizer, AutoModel, TFAutoModel
-# v3.0
-model_name_or_path = "HooshvareLab/bert-fa-zwnj-base"
-config = AutoConfig.from_pretrained(model_name_or_path)
-tokenizer = AutoTokenizer.from_pretrained(model_name_or_path)
-# model = TFAutoModel.from_pretrained(model_name_or_path)  For TF
-model = AutoModel.from_pretrained(model_name_or_path)
-text = "ما در هوش‌واره معتقدیم با انتقال صحیح دانش و آگاهی، همه افراد میتوانند از ابزارهای هوشمند استفاده کنند. شعار ما هوش مصنوعی برای همه است."
-tokenizer.tokenize(text)
-['ما', 'در', 'هوش', '[ZWNJ]', 'واره', 'معتقدیم', 'با', 'انتقال', 'صحیح', 'دانش', 'و', 'آ', '##گاهی', '،', 'همه', 'افراد', 'میتوانند', 'از', 'ابزارهای', 'هوشمند', 'استفاده', 'کنند', '.', 'شعار', 'ما', 'هوش', 'مصنوعی', 'برای', 'همه', 'است', '.']
+from NMTFcoclust.Models.NMTFcoclust_OPNMTF_alpha_2 import OPNMTF
+from NMTFcoclust.Evaluation.EV import Process_EV
+
+#from datetime import datetime
+import warnings
+warnings.filterwarnings("ignore")
+import timeit
+
+start = timeit.default_timer()
+
+#start_time = datetime.now()
+                                                              # do your work here
+#print(X_Classic3.shape)
+OPNMTF_alpha = OPNMTF(n_row_clusters = 4, n_col_clusters = 4, landa = 0.3,  mu = 0.3,  alpha = 0.4, max_iter=1)
+OPNMTF_alpha.fit(X_CSTR_sum_1)
+#end_time = datetime.now()
+#print('Duration: {}'.format(end_time - start_time))
+Process_Ev = Process_EV( true_labels ,X_CSTR_sum_1, OPNMTF_alpha) 
+
+
+
+stop = timeit.default_timer()
+
+print('Total Time: ', stop - start)  
+
+
+
+Accuracy (Acc):0.8641038961038962
+Normalized Mutual Info (NMI):0.7485620942703556
+Adjusted Rand Index (ARI):0.7016008180974826
+Adjusted Mutual Info (AMI):0.7484768514202804
+MSE_1:0.004073950544869352
+MSE_2:4.359943449115256e-08
+Silhouette score :-0.00032009818909529644
+Calinski harabasz score:1.0886938337248273
+Davies bouldin score :68.15461324333005
+Intra-cluster Average Similarity (IAS):0.03785009029322996
+Inter-cluster Centroids Average Similarity (ICAS):0.5448343292581849
+Runtime:68.81687170000009
+Confusion matrix   (CM):
+[[2022    0    0    0]
+ [ 374 1690    0    0]
+ [   0  675 2226    0]
+ [   0    0  259 2379]]
+Total Time:  570.3026817999998
 ```
 
 ![WC](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/WC_1_5_bold_31_32_11_22_33_v2.png?raw=true)
