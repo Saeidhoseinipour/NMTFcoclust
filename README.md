@@ -18,11 +18,11 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
   \mu \; D_{\alpha}(\mathbf{I}_{s}||\mathbf{G}^{\top}\mathbf{G})
 ```
 - $ONMTF_{\alpha}$
-   ```math
+```math
    D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
    \delta Tr(\mathbf{F}\Psi_{g}\mathbf{F}^{\top}) +	
    \beta Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{\top})
-   ```
+```
 - $NMTF_{\alpha}$
  $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})$$ 
 - $PNMTF$
