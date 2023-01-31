@@ -153,4 +153,4 @@ Please cite the following paper in your publication if you are using [NMTFcoclus
 ```
 ### References
 
-[1] Penalized nonnegative matrix tri-factorization for co-clustering
+[1] Wang et al, Penalized nonnegative matrix tri-factorization for co-clustering (2017), Expert Systems with Applications.
