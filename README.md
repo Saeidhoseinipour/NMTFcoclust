@@ -175,10 +175,10 @@ Total Time:  26.558243700000276
 
 
 ### Cite
-Please cite the following paper in your publication if you are using [ParsBERT](https://doi.org/10.1007/s11063-021-10528-4) in your research:
+Please cite the following paper in your publication if you are using [NMTFcoclust]() in your research:
 
 ```bibtex
- @article{ParsBERT, 
+ @article{NMTFcoclust, 
     title={Orthogonal Parametric Non-negative Matrix Tri-Factorization with $\alpha$-Divergence for Co-clustering}, 
     DOI={10.1007/s11063-021-10528-4}, 
     journal={Information processing and management}, 
