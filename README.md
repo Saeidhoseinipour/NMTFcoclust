@@ -9,7 +9,7 @@ where $n$, $m$, $g \leqslant n$ and $s \leqslant m$ are the number of rows, colu
 ![NMTF](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/nmtf7.png?raw=true)
 
 
-### Brief description 
+### Brief description of models
 NMTF coclust implements three proposed algorithms and some NMTF according to objective functions below:
 - $OPNMTF_{\alpha}$ 
 ```math
