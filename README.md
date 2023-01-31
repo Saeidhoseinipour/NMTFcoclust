@@ -33,7 +33,7 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
 ```math
 	0.5 ||\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}||^{2}
 ```
-- $NBVD$
+- [$NBVD$](https://dl.acm.org/doi/abs/10.1145/1081870.1081949)
  $$||\mathbf{X}-\mathbf{FSG}^{\top}||^{2}$$
 - [$ONM3T$](https://dl.acm.org/doi/abs/10.1145/1150402.1150420)
 ```math
@@ -164,7 +164,7 @@ Please cite the following paper in your publication if you are using [NMTFcoclus
 	
 [3] Ding et al, Orthogonal nonnegative matrix tri-factorizations for clustering (2008), Proceedings of the 12th ACM SIGKDD International Conference on Knowledge 	Discovery and Data Mining. [ONM3F](https://dl.acm.org/doi/abs/10.1145/1150402.1150420)
 
-[4] Long et al, Co-clustering by block value decomposition (2005), Proceedings of the Eleventh ACM SIGKDD International Conference on Knowledge Discovery in Data 	Mining.
+[4] Long et al, Co-clustering by block value decomposition (2005), Proceedings of the Eleventh ACM SIGKDD International Conference on Knowledge Discovery in Data 	Mining. [NBVD](https://dl.acm.org/doi/abs/10.1145/1081870.1081949)
 
 [5] [Labiod et al, Co-clustering under nonnegative matrix tri-factorization (2011), International Conference on Neural Information Processing.](https://link.springer.com/chapter/10.1007/978-3-642-24958-7_82)
 
