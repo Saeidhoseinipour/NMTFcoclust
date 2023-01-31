@@ -18,19 +18,23 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
   \mu \; D_{\alpha}(\mathbf{I}_{s}||\mathbf{G}^{\top}\mathbf{G})
 ```
 - $ONMTF_{\alpha}$
-   $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+ \delta \; Tr(\mathbf{F}\Psi_{g}\mathbf{F}^{\top}) +	\beta \; Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{\top})$$
+   ```math
+   D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+ \delta \; Tr(\mathbf{F}\Psi_{g}\mathbf{F}^{\top}) +	\beta \; Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{\top})
+   ```
 - $NMTF_{\alpha}$
  $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})$$ 
 - $PNMTF$
 ```math
- 0.5||\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}||^{2}+0.5 \tau \; Tr( \mathbf{F} \Psi_{g}\mathbf{F}^{\top})+0.5 \eta \; Tr(  \mathbf{G} \Psi_{s}\mathbf{G}^{\top})+ 0.5 \gamma \; Tr(\mathbf{S}^{\top}\mathbf{S})
+ 0.5||\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}||^{2}+0.5 \tau \; Tr(\mathbf{F} \Psi_{g}\mathbf{F}^{\top})+0.5 \eta \; Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{\top})+ 0.5 \gamma \; Tr(\mathbf{S}^{\top}\mathbf{S})
 ```
 - $NBVD$
  $$||\mathbf{X}-\mathbf{FSG}^{\top}||^{2}$$
 - $ONM3T$
  $$||\mathbf{X}-\mathbf{FSG}^{\top}||^{2}$$
 - $ODNMTF$
- $$||\mathbf{X}-\mathbf{FF^{\top}XGG}^{\top}||^{2}$$
+ ```math
+ ||\mathbf{X}-\mathbf{FF^{\top}XGG}^{\top}||^{2}+\text{Tr}(\varLambda \mathbf{F}^{\top})+\text{Tr}( \Gamma \mathbf{G}^{\top})
+ ```
 
 ### Requirements
 ```python
