@@ -60,9 +60,8 @@ coclust==0.2.1
 
 ### License
 
-### Examples
 
-#### Datasets
+### Datasets
 
 | Datasets | Documents | Words | Sporsity | Number of clusters |
 | -- | ----------- | -- | -- | -- |
@@ -85,45 +84,24 @@ import numpy as np
 from scipy.io import loadmat
 from sklearn.metrics import confusion_matrix 
 
-#from coclust.io.data_loading import load_doc_term_data
 
                                                                    # Read Data Sets ------->  Classic3
 
 file_name=r"D:\My paper\Application\NMTFcoclust\Dataset\Classic3\classic3.mat"
 mydata = loadmat(file_name)
-#print(mydata['A'])
-#matlab_dict=pd.read_csv(mydata)
-#matlab_dict=numpy.loadtxt(file_name)
-#type(mydata) ---> dic		
-
-#mydata=mydata.copy()
-
 
                                                                     # Data matrix 
 X_Classic3 = mydata['A'].toarray()
-print(X_Classic3)
 X_Classic3_sum_1 = X_Classic3/X_Classic3.sum()
-
-E_m1 = np.ones((4303, 1))
-X_Classic3_normalization = X_Classic3@np.diagflat(np.power(X_Classic3.T@X_Classic3@E_m1, -0.5))
-#print(X_Classic3_normalization)
-#print(X_Classic3.sum(axis=0).shape)
-freq = X_Classic3.sum(axis = 0)
-#print(list(freq))
-                                                                    
+                                                                   
 true_labels = mydata['labels'].flatten().tolist()                   # True labels list [0,0,0,..,1,1,1,..,2,2,2]  n_row_cluster = 3
 true_labels = [x+1 for x in true_labels]                            # True labels list [1,1,1,..,2,2,2,..,3,3,3]  n_row_cluster = 3
 print(confusion_matrix(true_labels, true_labels))
 
-#print(true_labels)                                               
-#print(mydata['ts'].shape)
-#print(mydata['ms'].shape)
-#print(X_Classic3,X_Classic3_normalization.sum(),X_Classic3_sum_1.sum())
-
 
 ```
 
-## Model
+### Model
 ```python
 from NMTFcoclust.Models import NMTFcoclust_ONMTF_alpha
 from NMTFcoclust.Models import NMTFcoclust_NMTF_alpha
