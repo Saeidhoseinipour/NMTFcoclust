@@ -163,3 +163,9 @@ Please cite the following paper in your publication if you are using [NMTFcoclus
 [4] Long et al, Co-clustering by block value decomposition (2005), Proceedings of the Eleventh ACM SIGKDD International Conference on Knowledge Discovery in Data 	Mining.
 
 [5] Labiod et al, Co-clustering under nonnegative matrix tri-factorization (2011), International Conference on Neural Information Processing.
+
+[6] Li et al, Nonnegative Matrix Factorization on Orthogonal Subspace (2010), Pattern Recognition Letters.
+
+[7] Li et al, Nonnegative Matrix Factorizations for Clustering: A Survey (2019), Data Clustering.
+
+[8] Cichocki et al, Non-negative matrix factorization with $\alpha$-divergence (2008), Pattern Recognition Letters.
