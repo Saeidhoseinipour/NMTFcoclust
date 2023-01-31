@@ -174,5 +174,17 @@ Total Time:  26.558243700000276
 - [RCV1_ori](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Datasets/RCV1_ori..mat)
 
 
+### Cite
+Please cite the following paper in your publication if you are using [ParsBERT](https://doi.org/10.1007/s11063-021-10528-4) in your research:
+
+```bibtex
+ @article{ParsBERT, 
+    title={Orthogonal Parametric Non-negative Matrix Tri-Factorization with $\alpha$-Divergence for Co-clustering}, 
+    DOI={10.1007/s11063-021-10528-4}, 
+    journal={Information processing and management}, 
+    author={Saeid Hoseinipour, Mina Aminghafari, Adel Mohammadpour}, 
+    year={2023}
+} 
+```
 ### References
 
