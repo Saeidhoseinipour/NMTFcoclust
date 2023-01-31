@@ -19,7 +19,9 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
 ```
 - $ONMTF_{\alpha}$
    ```math
-   D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+ \delta \; Tr(\mathbf{F}\Psi_{g}\mathbf{F}^{\top}) +	\beta \; Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{\top})
+   D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
+   \delta \; Tr(\mathbf{F}\Psi_{g}\mathbf{F}^{\top}) +	
+   \beta \; Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{\top})
    ```
 - $NMTF_{\alpha}$
  $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})$$ 
@@ -33,7 +35,7 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
  $$||\mathbf{X}-\mathbf{FSG}^{\top}||^{2}$$
 - $ODNMTF$
  ```math
- ||\mathbf{X}-\mathbf{FF^{\top}XGG}^{\top}||^{2}+\text{Tr}(\varLambda \mathbf{F}^{\top})+\text{Tr}( \Gamma \mathbf{G}^{\top})
+ ||\mathbf{X}-\mathbf{FF^{\top}XGG}^{\top}||^{2}+ Tr(\varLambda \mathbf{F}^{\top})+ Tr( \Gamma \mathbf{G}^{\top})
  ```
 
 ### Requirements
