@@ -10,7 +10,7 @@ where $n$, $m$, $g \leqslant n$ and $s \leqslant m$ are the number of rows, colu
 
 
 ### Brief description of models
-NMTF coclust implements three proposed algorithms and some NMTF according to objective functions below:
+NMTFcoclust implements three proposed algorithms and some NMTF according to objective functions below:
 - $OPNMTF_{\alpha}$ 
 ```math
 D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
