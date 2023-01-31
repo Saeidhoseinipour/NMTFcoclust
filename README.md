@@ -159,7 +159,7 @@ Total Time:  26.558243700000276
 ```
 
 ![WC](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/WC_1_5_bold_31_32_11_22_33_v2.png?raw=true)
-
+![DC](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/DC1-WC2.eps?raw=true)
 
 ### Cite
 Please cite the following paper in your publication if you are using [NMTFcoclust]() in your research:
