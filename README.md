@@ -150,7 +150,7 @@ Please cite the following paper in your publication if you are using [NMTFcoclus
     title={Orthogonal Parametric Non-negative Matrix Tri-Factorization with $\alpha$-Divergence for Co-clustering}, 
     DOI={10.1007/s11063-021-10528-4}, 
     journal={Information processing and management}, 
-    author={Saeid Hoseinipour, Mina Aminghafari, Adel Mohamadpour}, 
+    author={Saeid Hoseinipour, Mina Aminghafari, Adel Mohammadpour}, 
     year={2023}
 } 
 ```
