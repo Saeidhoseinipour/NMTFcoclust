@@ -12,7 +12,11 @@ where $n$, $m$, $g \leqslant n$ and $s \leqslant m$ are the number of rows, colu
 ### Brief description 
 NMTFcoclust implements three proposed algorithms and other orthogonal NMTF:
 - $OPNMTF_{\alpha}$ 
-  $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+\lambda D_{\alpha}(\mathbf{I}_{g}||\mathbf{F}^{\top}\mathbf{F})+\mu D_{\alpha}(\mathbf{I}_{s}||\mathbf{G}^{\top}\mathbf{G})$$  
+  $$
+  D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
+  \lambda D_{\alpha}(\mathbf{I}_{g}||\mathbf{F}^{\top}\mathbf{F})+
+  \muD_{\alpha}(\mathbf{I}_{s}||\mathbf{G}^{\top}\mathbf{G})
+  $$  
 - $ONMTF_{\alpha}$
    $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+ \delta Tr(\mathbf{F}\Psi_{g}\mathbf{F}^{\top}) +	\beta Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{\top})$$
 - $NMTF_{\alpha}$
