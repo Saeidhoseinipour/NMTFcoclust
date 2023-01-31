@@ -170,6 +170,6 @@ Please cite the following paper in your publication if you are using [NMTFcoclus
 
 [6] Li et al, Nonnegative Matrix Factorization on Orthogonal Subspace (2010), Pattern Recognition Letters.
 
-[7] Li et al, Nonnegative Matrix Factorizations for Clustering: A Survey (2019), Data Clustering.
+[7] [Li et al, Nonnegative Matrix Factorizations for Clustering: A Survey (2019), Data Clustering.](https://www.taylorfrancis.com/chapters/edit/10.1201/9781315373515-7/nonnegative-matrix-factorizations-clustering-survey-tao-li-cha-charis-ding)
 
 [8] Cichocki et al, Non-negative matrix factorization with $\alpha$-divergence (2008), Pattern Recognition Letters.
