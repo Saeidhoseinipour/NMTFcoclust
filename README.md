@@ -138,38 +138,16 @@ from NMTFcoclust.Models import NMTFcoclust_DNMF
 from NMTFcoclust.Models.NMTFcoclust_OPNMTF_alpha_2 import OPNMTF
 from NMTFcoclust.Evaluation.EV import Process_EV
 
-#from datetime import datetime
-import warnings
-warnings.filterwarnings("ignore")
-import timeit
-
-start = timeit.default_timer()
-
-#start_time = datetime.now()
-                                                              # do your work here
-#print(X_Classic3.shape)
 OPNMTF_alpha = OPNMTF(n_row_clusters = 3, n_col_clusters = 3, landa = 0.3,  mu = 0.3,  alpha = 0.4, max_iter=1)
 OPNMTF_alpha.fit(X_Classic3_sum_1)
-#end_time = datetime.now()
-#print('Duration: {}'.format(end_time - start_time))
 Process_Ev = Process_EV( true_labels ,X_Classic3_sum_1, OPNMTF_alpha) 
 
-
-
-stop = timeit.default_timer()
-
-print('Total Time: ', stop - start)  
 
 
 Accuracy (Acc):0.9100488306347982
 Normalized Mutual Info (NMI):0.7703948803438703
 Adjusted Rand Index (ARI):0.7641161476685447
 Adjusted Mutual Info (AMI):0.7702867787943636
-MSE_1:0.013438939646774076
-MSE_2:1.9442203497613212e-06
-Silhouette score :-0.00489168197441187
-Calinski harabasz score:1.0674645595237953
-Davies bouldin score :46.64486662470455
 Intra-cluster Average Similarity (IAS):0.027380015679156534
 Inter-cluster Centroids Average Similarity (ICAS):0.335635399782488
 Runtime:4.049925799999983
