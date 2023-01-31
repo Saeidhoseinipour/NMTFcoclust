@@ -21,6 +21,10 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
    $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+ \delta Tr(\mathbf{F}\Psi_{g}\mathbf{F}^{\top}) +	\beta Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{\top})$$
 - $NMTF_{\alpha}$
  $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})$$ 
+- $PNMTF$
+```math
+\frac{1}{2} \|\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}\|^{2}+\frac{\tau}{2}\text{Tr}( \mathbf{F}\bm{\Psi}_{g}\mathbf{F}^{\top})+\frac{\eta}{2}\text{Tr}(  \mathbf{G}\bm{\Psi}_{s}\mathbf{G}^{\top})+\frac{\gamma}{2}\text{Tr}(\mathbf{S}^{\top}\mathbf{S})
+```
 - $NBVD$
  $$||\mathbf{X}-\mathbf{FSG}^{\top}||^{2}$$
 - $ONM3T$
