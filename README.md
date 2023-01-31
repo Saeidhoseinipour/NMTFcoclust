@@ -15,15 +15,15 @@ NMTFcoclust implements three proposed algorithms and other orthogonal NMTF:
 ```math
 D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
   \lambda \; D_{\alpha}(\mathbf{I}_{g}||\mathbf{F}^{\top}\mathbf{F})+
-  \mu D_{\alpha}(\mathbf{I}_{s}||\mathbf{G}^{\top}\mathbf{G})
+  \mu \; D_{\alpha}(\mathbf{I}_{s}||\mathbf{G}^{\top}\mathbf{G})
 ```
 - $ONMTF_{\alpha}$
-   $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+ \delta Tr(\mathbf{F}\Psi_{g}\mathbf{F}^{\top}) +	\beta Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{\top})$$
+   $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+ \delta \; Tr(\mathbf{F}\Psi_{g}\mathbf{F}^{\top}) +	\beta \; Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{\top})$$
 - $NMTF_{\alpha}$
  $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})$$ 
 - $PNMTF$
 ```math
- 0.5||\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}||^{2}+0.5 \tau Tr( \mathbf{F} \Psi_{g}\mathbf{F}^{\top})+0.5 \eta Tr(  \mathbf{G} \Psi_{s}\mathbf{G}^{\top})+ 0.5 \gamma Tr(\mathbf{S}^{\top}\mathbf{S})
+ 0.5||\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}||^{2}+0.5 \tau \; Tr( \mathbf{F} \Psi_{g}\mathbf{F}^{\top})+0.5 \eta \; Tr(  \mathbf{G} \Psi_{s}\mathbf{G}^{\top})+ 0.5 \gamma \; Tr(\mathbf{S}^{\top}\mathbf{S})
 ```
 - $NBVD$
  $$||\mathbf{X}-\mathbf{FSG}^{\top}||^{2}$$
