@@ -140,7 +140,6 @@ Confusion matrix   (CM):
 Total Time:  26.558243700000276
 ```
 
-![WC](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/WC_1_5_bold_31_32_11_22_33_v2.png?raw=true)
 ![DC](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/WC_classic3.png?raw=true)
 
 ### Cite
