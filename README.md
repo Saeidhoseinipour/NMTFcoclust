@@ -41,11 +41,11 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
  Tr(\Lambda (\mathbf{F}^{\top}\mathbf{F}-\mathbf{I}_{s}))+ 
  Tr(\Gamma (\mathbf{G}^{\top}\mathbf{G}-\mathbf{I}_{g}))
 ```
-- $ODNMTF$
+- [$ODNMTF$](https://link.springer.com/chapter/10.1007/978-3-642-24958-7_82)
 ```math
  ||\mathbf{X}-\mathbf{FF^{\top}XGG}^{\top}||^{2}+ Tr(\Lambda \mathbf{F}^{\top})+ Tr( \Gamma \mathbf{G}^{\top})
 ```
-- $DNMTF$
+- [$DNMTF$](https://link.springer.com/chapter/10.1007/978-3-642-24958-7_82)
 ```math
  ||\mathbf{X}-\mathbf{FF^{\top}XGG}^{\top}||^{2}
 ```
@@ -166,7 +166,7 @@ Please cite the following paper in your publication if you are using [NMTFcoclus
 
 [4] Long et al, Co-clustering by block value decomposition (2005), Proceedings of the Eleventh ACM SIGKDD International Conference on Knowledge Discovery in Data 	Mining.
 
-[5] Labiod et al, Co-clustering under nonnegative matrix tri-factorization (2011), International Conference on Neural Information Processing.
+[5] [Labiod et al, Co-clustering under nonnegative matrix tri-factorization (2011), International Conference on Neural Information Processing.](https://link.springer.com/chapter/10.1007/978-3-642-24958-7_82)
 
 [6] [Li et al, Nonnegative Matrix Factorization on Orthogonal Subspace (2010), Pattern Recognition Letters.](sciencedirect.com/science/article/abs/pii/S0167865509003651)
 
