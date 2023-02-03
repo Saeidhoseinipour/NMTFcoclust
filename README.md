@@ -65,7 +65,7 @@ coclust==0.2.1
 ### License
 
 
-### Datasets
+### [Datasets](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Datasets)
 
 | Datasets | Documents | Words | Sporsity | Number of clusters |
 | -- | ----------- | -- | -- | -- |
