@@ -103,16 +103,7 @@ print(confusion_matrix(true_labels, true_labels))
 ```
 
 ### Model
-```python
-from NMTFcoclust.Models import NMTFcoclust_ONMTF_alpha
-from NMTFcoclust.Models import NMTFcoclust_NMTF_alpha
-from NMTFcoclust.Models import NMTFcoclust_PNMTF
-from NMTFcoclust.Models import NMTFcoclust_ONM3F
-from NMTFcoclust.Models import NMTFcoclust_ONMTF
-from NMTFcoclust.Models import NMTFcoclust_NBVD
-from NMTFcoclust.Models import NMTFcoclust_ODNMF
-from NMTFcoclust.Models import NMTFcoclust_DNMF
-```
+
 ```python
 from NMTFcoclust.Models.NMTFcoclust_OPNMTF_alpha_2 import OPNMTF
 from NMTFcoclust.Evaluation.EV import Process_EV
@@ -126,10 +117,7 @@ Process_Ev = Process_EV( true_labels ,X_Classic3_sum_1, OPNMTF_alpha)
 Accuracy (Acc):0.9100488306347982
 Normalized Mutual Info (NMI):0.7703948803438703
 Adjusted Rand Index (ARI):0.7641161476685447
-Adjusted Mutual Info (AMI):0.7702867787943636
-Intra-cluster Average Similarity (IAS):0.027380015679156534
-Inter-cluster Centroids Average Similarity (ICAS):0.335635399782488
-Runtime:4.049925799999983
+
 Confusion matrix   (CM):
 [[1033    0    0]
  [ 276 1184    0]
