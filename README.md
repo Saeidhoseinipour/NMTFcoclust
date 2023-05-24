@@ -60,9 +60,6 @@ scikit-learn==0.22.2.post1
 coclust==0.2.1
 
 ```
-### Installing NMTFcoclust
-
-### License
 
 
 ### [Datasets](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Datasets)
