@@ -11,20 +11,13 @@ where $n$, $m$, $g \leqslant n$ and $s \leqslant m$ are the number of rows, colu
 
 ### Brief description of models
 NMTFcoclust implements three proposed algorithms and some NMTF according to objective functions below:
-- $OPNMTF_{\alpha}$ 
+- $OPNMTF$ 
 ```math
 D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
   \lambda \; D_{\alpha}(\mathbf{I}_{g}||\mathbf{F}^{\top}\mathbf{F})+
   \mu \; D_{\alpha}(\mathbf{I}_{s}||\mathbf{G}^{\top}\mathbf{G})
 ```
-- $ONMTF_{\alpha}$
-```math
-   D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
-   \delta Tr(\mathbf{F}\Psi_{g}\mathbf{F}^{\top}) +	
-   \beta Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{\top})
-```
-- $NMTF_{\alpha}$
- $$D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})$$ 
+
 - [$PNMTF$](https://www.sciencedirect.com/science/article/abs/pii/S0957417417300283)
 ```math
  0.5||\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}||^{2}+0.5 \tau \; Tr(\mathbf{F} \Psi_{g}\mathbf{F}^{\top})+0.5 \eta \; Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{\top})+ 0.5 \gamma \; Tr(\mathbf{S}^{\top}\mathbf{S})
@@ -88,7 +81,7 @@ from sklearn.metrics import confusion_matrix
 
                                                                    # Read Data Sets ------->  Classic3
 
-file_name=r"D:\My paper\Application\NMTFcoclust\Dataset\Classic3\classic3.mat"
+file_name=r"NMTFcoclust\Dataset\Classic3\classic3.mat"
 mydata = loadmat(file_name)
 
                                                                     # Data matrix 
