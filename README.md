@@ -126,8 +126,8 @@ Please cite the following paper in your publication if you are using [NMTFcoclus
 ```bibtex
  @article{NMTFcoclust, 
     title={Orthogonal Parametric Non-negative Matrix Tri-Factorization with $\alpha$-Divergence for Co-clustering}, 
-    DOI={Preprint}, 
-    journal={Expert Systems with Applications (Preprint)}, 
+    DOI={10.1016/j.eswa.2023.120680}, 
+    journal={Expert Systems with Applications}, 
     author={Saeid Hoseinipour, Mina Aminghafari, Adel Mohammadpour}, 
     year={2023}
 } 
