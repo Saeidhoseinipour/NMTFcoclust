@@ -129,6 +129,8 @@ Please cite the following paper in your publication if you are using [NMTFcoclus
     year={2023}
 } 
 ```
+### Supplementary material
+[](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Supplementary%20material)
 ### References
 
 [1] [Wang et al, Penalized nonnegative matrix tri-factorization for co-clustering (2017), Expert Systems with Applications.](https://www.sciencedirect.com/science/article/abs/pii/S0957417417300283)
