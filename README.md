@@ -11,8 +11,8 @@ where $n$, $m$, $g \leqslant n$ and $s \leqslant m$ are the number of rows, colu
 
 
 ### Brief description of models
-NMTFcoclust implements three proposed algorithms and some NMTF according to objective functions below:
-- [OPNMTF](https://www.sciencedirect.com/science/article/abs/pii/S095741742301182X) 
+NMTFcoclust implements the proposed algorithm (**OPNMTF**) and some NMTF according to the objective functions below:
+- [**OPNMTF**](https://www.sciencedirect.com/science/article/abs/pii/S095741742301182X) 
 ```math
 D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
   \lambda \; D_{\alpha}(\mathbf{I}_{g}||\mathbf{F}^{\top}\mathbf{F})+
