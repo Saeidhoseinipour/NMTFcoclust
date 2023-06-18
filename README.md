@@ -130,7 +130,9 @@ Please cite the following paper in your publication if you are using [NMTFcoclus
 } 
 ```
 ### Supplementary material
-[Available](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Supplementary%20material)
+OPNMTF implements on synthetic datasets such as Bernoulli, Poisson, and Truncated Gaussian.
+[Available from GitHub](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Supplementary%20material)
+[Available from ESWA](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-mmc1.pdf)
 ### References
 
 [1] [Wang et al, Penalized nonnegative matrix tri-factorization for co-clustering (2017), Expert Systems with Applications.](https://www.sciencedirect.com/science/article/abs/pii/S0957417417300283)
