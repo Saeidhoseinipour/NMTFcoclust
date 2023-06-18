@@ -19,15 +19,15 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
   \mu \; D_{\alpha}(\mathbf{I}_{s}||\mathbf{G}^{\top}\mathbf{G})
 ```
 
-- [$PNMTF$](https://www.sciencedirect.com/science/article/abs/pii/S0957417417300283)
+- [PNMTF](https://www.sciencedirect.com/science/article/abs/pii/S0957417417300283)
 ```math
  0.5||\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}||^{2}+0.5 \tau \; Tr(\mathbf{F} \Psi_{g}\mathbf{F}^{\top})+0.5 \eta \; Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{\top})+ 0.5 \gamma \; Tr(\mathbf{S}^{\top}\mathbf{S})
 ```
-- [$ONMTF$](https://www.sciencedirect.com/science/article/abs/pii/S0306457310000038)
+- [ONMTF](https://www.sciencedirect.com/science/article/abs/pii/S0306457310000038)
 ```math
 	0.5 ||\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}||^{2}
 ```
-- [$NBVD$](https://dl.acm.org/doi/abs/10.1145/1081870.1081949)
+- [NBVD](https://dl.acm.org/doi/abs/10.1145/1081870.1081949)
  $$||\mathbf{X}-\mathbf{FSG}^{\top}||^{2}$$
 - [$ONM3T$](https://dl.acm.org/doi/abs/10.1145/1150402.1150420)
 ```math
@@ -35,11 +35,11 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
  Tr(\Lambda (\mathbf{F}^{\top}\mathbf{F}-\mathbf{I}_{s}))+ 
  Tr(\Gamma (\mathbf{G}^{\top}\mathbf{G}-\mathbf{I}_{g}))
 ```
-- [$ODNMTF$](https://link.springer.com/chapter/10.1007/978-3-642-24958-7_82)
+- [ODNMTF](https://link.springer.com/chapter/10.1007/978-3-642-24958-7_82)
 ```math
  ||\mathbf{X}-\mathbf{FF^{\top}XGG}^{\top}||^{2}+ Tr(\Lambda \mathbf{F}^{\top})+ Tr( \Gamma \mathbf{G}^{\top})
 ```
-- [$DNMTF$](https://link.springer.com/chapter/10.1007/978-3-642-24958-7_82)
+- [DNMTF](https://link.springer.com/chapter/10.1007/978-3-642-24958-7_82)
 ```math
  ||\mathbf{X}-\mathbf{FF^{\top}XGG}^{\top}||^{2}
 ```
