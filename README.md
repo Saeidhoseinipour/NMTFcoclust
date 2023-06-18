@@ -15,7 +15,7 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
   \lambda \; D_{\alpha}(\mathbf{I}_{g}||\mathbf{F}^{\top}\mathbf{F})+
   \mu \; D_{\alpha}(\mathbf{I}_{s}||\mathbf{G}^{\top}\mathbf{G})
 ```
-
+50 day free assec to paper with this link https://www.sciencedirect.com/science/article/pii/S095741742301182X?dgcid=coauthor
 - [PNMTF](https://www.sciencedirect.com/science/article/abs/pii/S0957417417300283)
 ```math
  0.5||\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}||^{2}+0.5 \tau \; Tr(\mathbf{F} \Psi_{g}\mathbf{F}^{\top})+0.5 \eta \; Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{\top})+ 0.5 \gamma \; Tr(\mathbf{S}^{\top}\mathbf{S})
