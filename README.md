@@ -15,7 +15,6 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
   \lambda \; D_{\alpha}(\mathbf{I}_{g}||\mathbf{F}^{\top}\mathbf{F})+
   \mu \; D_{\alpha}(\mathbf{I}_{s}||\mathbf{G}^{\top}\mathbf{G})
 ```
-[Personalized URL providing 50 days' free access to the article](https://authors.elsevier.com/c/1hFjU_LnESYZ-~) 
 - [PNMTF](https://www.sciencedirect.com/science/article/abs/pii/S0957417417300283)
 ```math
  0.5||\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}||^{2}+0.5 \tau \; Tr(\mathbf{F} \Psi_{g}\mathbf{F}^{\top})+0.5 \eta \; Tr(\mathbf{G} \Psi_{s}\mathbf{G}^{\top})+ 0.5 \gamma \; Tr(\mathbf{S}^{\top}\mathbf{S})
@@ -135,6 +134,8 @@ Please cite the following paper in your publication if you are using [NMTFcoclus
 **OPNMTF** implements on synthetic datasets such as Bernoulli, Poisson, and Truncated Gaussian.
 - [Available from GitHub](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Supplementary%20material)
 - [Available from ESWA](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-mmc1.pdf)
+- [Personalized URL providing 50 days' free access to the article](https://authors.elsevier.com/c/1hFjU_LnESYZ-~) 
+
 ### References
 
 [1] [Wang et al, Penalized nonnegative matrix tri-factorization for co-clustering (2017), Expert Systems with Applications.](https://www.sciencedirect.com/science/article/abs/pii/S0957417417300283)
