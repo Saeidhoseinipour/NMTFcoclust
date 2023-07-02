@@ -1,6 +1,6 @@
 # **NMTFcoclust**  
 
-[!\[my badge\](https://badgen.net/badge/Saeid/Hoseinipour/pink?icon=instgrame)]
+[![my](https://badgen.net/badge/Saeid/Hoseinipour/pink?icon=instgrame)]
 [![Go Report Card](https://goreportcard.com/badge/github.com/bitnami/gonit)](https://goreportcard.com/report/github.com/bitnami/gonit)
 [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)
 [![PkgGoDev](https://pkg.go.dev/badge/mod/github.com/consensys/gnark)](https://pkg.go.dev/mod/github.com/consensys/gnark)
