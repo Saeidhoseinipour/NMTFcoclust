@@ -3,8 +3,6 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/bitnami/gonit)](https://goreportcard.com/report/github.com/bitnami/gonit)
 [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)
 [![PkgGoDev](https://pkg.go.dev/badge/mod/github.com/consensys/gnark)](https://pkg.go.dev/mod/github.com/consensys/gnark)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5819104.svg)]([https://doi.org/10.5281/zenodo.5819104](https://www.sciencedirect.com/science/article/pii/S095741742301182X?dgcid=coauthor))
-
 ![](https://badgen.net/badge/DOI/10.1016j.eswa.2023.120680/blue?icon=instgrame)
 ![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/NMTF/Coclust/pink?icon=instgrame)
 
