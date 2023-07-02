@@ -1,4 +1,7 @@
 # **NMTFcoclust**  
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/bitnami/gonit)](https://goreportcard.com/report/github.com/bitnami/gonit)
+
 ### **NMTFcocluster** (Non-negative Matrix Tri-Factorization for Co-clustering) is a package that implements decomposition on a data matrix $\mathbf{X}$ (document-word matrix and so on) with finding three  matrices $\mathbf{F}$ (roles membership rows), $\mathbf{G}$ (roles membership columns), and $\mathbf{S}$ (roles summary matrix) based on optimized $\alpha$-divergence.
 
  The low-rank approximation of $\mathbf{X}$ by
