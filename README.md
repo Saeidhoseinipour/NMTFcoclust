@@ -11,7 +11,7 @@
  The low-rank approximation of \mathbf{X}\mathbf{X} by
      \mathbf{X} \approx \mathbf{FSG}^{\top}\mathbf{X} \approx \mathbf{FSG}^{\top}.
 
-![NMTF](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/nmtf7.png?raw=true)
+![NMTF](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/NMTF2.png?raw=true)
 
 
 ### Brief description of models
