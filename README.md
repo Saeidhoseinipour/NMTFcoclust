@@ -124,6 +124,8 @@ Total Time:  26.558243700000276
 
 ![DC](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/WC_classic3.png?raw=true)
 
+- [High quality avalible in ESWA](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-gr4_lrg.jpg)
+
 ### Cite
 Please cite the following paper in your publication if you are using [NMTFcoclust]() in your research:
 
@@ -141,8 +143,7 @@ Please cite the following paper in your publication if you are using [NMTFcoclus
 **OPNMTF** implements on synthetic datasets such as Bernoulli, Poisson, and Truncated Gaussian.
 - [Available from GitHub](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Supplementary%20material)
 - [Available from ESWA](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-mmc1.pdf)
-- [Personalized URL providing 50 days' free access to the article](https://authors.elsevier.com/c/1hFjU_LnESYZ-~) 
-
+- [Personalized URL providing 50 days' free access to the article](https://authors.elsevier.com/c/1hFjU_LnESYZ-~)
 ### References
 
 [1] [Wang et al, Penalized nonnegative matrix tri-factorization for co-clustering (2017), Expert Systems with Applications.](https://www.sciencedirect.com/science/article/abs/pii/S0957417417300283)
