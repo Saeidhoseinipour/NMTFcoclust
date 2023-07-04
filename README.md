@@ -6,10 +6,10 @@
 ![](https://badgen.net/badge/DOI/10.1016j.eswa.2023.120680/blue?icon=instgrame)
 ![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/NMTF/Coclust/pink?icon=instgrame)
 
-### **NMTFcocluster** (Non-negative Matrix Tri-Factorization for Co-clustering) is a package that implements decomposition on a data matrix $\mathbf{X}$ (document-word matrix and so on) with finding three  matrices $\mathbf{F}$ (roles membership rows), $\mathbf{G}$ (roles membership columns), and $\mathbf{S}$ (roles summary matrix) based on optimized $\alpha$-divergence.
+### **NMTFcocluster** (Non-negative Matrix Tri-Factorization for Co-clustering) is a package that implements decomposition on a data matrix \mathbf{X}\mathbf{X} (document-word matrix and so on) with finding three  matrices \mathbf{F}\mathbf{F} (roles membership rows), \mathbf{G}\mathbf{G} (roles membership columns), and \mathbf{S}\mathbf{S} (roles summary matrix) based on optimized \alpha\alpha-divergence.
 
- The low-rank approximation of $\mathbf{X}$ by
-     $$\mathbf{X} \approx \mathbf{FSG}^{\top}$$.
+ The low-rank approximation of \mathbf{X}\mathbf{X} by
+     \mathbf{X} \approx \mathbf{FSG}^{\top}\mathbf{X} \approx \mathbf{FSG}^{\top}.
 
 ![NMTF](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/nmtf7.png?raw=true)
 
@@ -124,7 +124,7 @@ Total Time:  26.558243700000276
 
 ![DC](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/WC_classic3.png?raw=true)
 
-- [High quality avalible in ESWA](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-gr4_lrg.jpg)
+- [Download full-size image available in ESWA](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-gr4_lrg.jpg)
 
 ### Cite
 Please cite the following paper in your publication if you are using [NMTFcoclust]() in your research:
