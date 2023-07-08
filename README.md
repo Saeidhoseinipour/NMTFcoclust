@@ -6,7 +6,7 @@
 ![](https://badgen.net/badge/DOI/10.1016j.eswa.2023.120680/blue?icon=instgrame)
 ![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/NMTF/Coclust/pink?icon=instgrame)
 
-### **NMTFcocluster** (Non-negative Matrix Tri-Factorization for Co-clustering) is a package that implements decomposition on a data matrix \mathbf{X} (document-word matrix and so on) with finding three  matrices \mathbf{F} (roles membership rows), \mathbf{G} (roles membership columns), and \mathbf{S} (roles summary matrix) based on optimized \alpha-divergence.
+### **NMTFcocluster** (Non-negative Matrix Tri-Factorization for Co-clustering) is a package that implements decomposition on a data matrix $\mathbf{X}$ (document-word matrix and so on) with finding three  matrices $\mathbf{F}$ (roles membership rows), $\mathbf{G}$ (roles membership columns), and $\mathbf{S}$ (roles summary matrix) based on optimized $\alpha$-divergence.
 
  The low-rank approximation of $\mathbf{X}$ by
      $$\mathbf{X} \approx \mathbf{FSG}^{\top}$$
