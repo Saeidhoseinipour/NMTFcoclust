@@ -115,10 +115,10 @@ Accuracy (Acc):0.9100488306347982
 Normalized Mutual Info (NMI):0.7703948803438703
 Adjusted Rand Index (ARI):0.7641161476685447
 
-Confusion matrix   (CM):
-[[1033    0    0]
- [ 276 1184    0]
- [   0   74 1324]]
+Confusion Matrix (CM):
+				[[1033    0    0]
+				 [ 276 1184    0]
+				 [   0   74 1324]]
 Total Time:  26.558243700000276
 ```
 
