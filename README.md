@@ -85,7 +85,7 @@ from scipy.io import loadmat
 from sklearn.metrics import confusion_matrix 
 
 
-                                                                   # Read Data Sets ------->  Classic3
+                                                                   # Read Datasets ------->  Classic3
 
 file_name=r"NMTFcoclust\Dataset\Classic3\classic3.mat"
 mydata = loadmat(file_name)
@@ -100,9 +100,9 @@ print(confusion_matrix(true_labels, true_labels))
 
 
 
-[[1033    0    0]
- [   0 1460    0]
- [   0    0 1398]]
+        Medical:        [[1033    0    0]
+ Information Retrieval: [   0 1460    0]
+ Aeronautical Systems:  [   0    0 1398]]
 
 ```
 
