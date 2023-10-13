@@ -143,7 +143,7 @@ Please cite the following paper in your publication if you are using [`NMTFcoclu
   volume  = {231}, 
    number   = {120680},
     journal={Expert Systems with Applications}, 
-    author={Saeid Hoseinipour, Mina Aminghafari, Adel Mohammadpour}, 
+    authors={Saeid Hoseinipour, Mina Aminghafari, Adel Mohammadpour}, 
     year={2023}
 } 
 ```
