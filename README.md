@@ -6,7 +6,7 @@
 [![PkgGoDev](https://pkg.go.dev/badge/mod/github.com/consensys/gnark)](https://pkg.go.dev/mod/github.com/consensys/gnark)
 ![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/NMTF/Coclust/pink?icon=instgrame)
 
-### `NMTFcoclust` (Non-negative Matrix Tri-Factorization for Co-clustering) is a package that implements decomposition on a data matrix $\mathbf{X}$ (document-word matrix and so on) with finding three  matrices $\mathbf{F}$ (roles membership rows), $\mathbf{G}$ (roles membership columns), and $\mathbf{S}$ (roles summary matrix) based on optimized $\alpha$-divergence.
+## `NMTFcoclust` (Non-negative Matrix Tri-Factorization for Co-clustering) is a package that implements decomposition on a data matrix $\mathbf{X}$ (document-word matrix and so on) with finding three  matrices $\mathbf{F}$ (roles membership rows), $\mathbf{G}$ (roles membership columns), and $\mathbf{S}$ (roles summary matrix) based on optimized $\alpha$-divergence.
 
  The low-rank approximation of $\mathbf{X}$ by
      $$\mathbf{X} \approx \mathbf{FSG}^{\top}$$
@@ -14,7 +14,7 @@
 ![NMTF](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/NMTF2.png?raw=true)
 
 
-### Brief description of models
+## Brief description of models
 `NMTFcoclust` implements the proposed algorithm (**OPNMTF**) and some NMTF according to the objective functions below:
 - [**OPNMTF**](https://www.sciencedirect.com/science/article/abs/pii/S095741742301182X) 
 ```math
@@ -47,7 +47,7 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
  ||\mathbf{X}-\mathbf{FF^{\top}XGG}^{\top}||^{2}
 ```
 
-### Requirements
+## Requirements
 ```python
 numpy==1.18.3
 pandas==1.0.3
@@ -59,7 +59,7 @@ coclust==0.2.1
 ```
 
 
-### [Datasets](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Datasets)
+## [Datasets](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Datasets)
 
 | Datasets | \#Documents | \#Words | Sporsity(%0) | Number of clusters |
 | -- | ----------- | -- | -- | -- |
@@ -103,7 +103,7 @@ print(confusion_matrix(true_labels, true_labels))
 
 ```
 
-### Model
+## Model
 
 ```python
 from NMTFcoclust.Models.NMTFcoclust_OPNMTF_alpha_2 import OPNMTF
@@ -130,7 +130,7 @@ Total Time:  26.558243700000276
 
 - [Download full-size image available in ESWA](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-gr4_lrg.jpg)
 
-### Cite
+## Cite
 Please cite the following paper in your publication if you are using [`NMTFcoclust`]() in your research:
 
 ```bibtex
@@ -145,12 +145,12 @@ Please cite the following paper in your publication if you are using [`NMTFcoclu
 } 
 ```
 
-### Supplementary material
+## Supplementary material
 **OPNMTF** implements on synthetic datasets such as Bernoulli, Poisson, and Truncated Gaussian.
 - [Available from GitHub](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Supplementary%20material)
 - [Available from ESWA](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-mmc1.pdf)
 - [Personalized URL providing 50 days' free access to the article](https://authors.elsevier.com/c/1hFjU_LnESYZ-~)
-### References
+## References
 
 [1] [Wang et al, Penalized nonnegative matrix tri-factorization for co-clustering (2017), Expert Systems with Applications.](https://www.sciencedirect.com/science/article/abs/pii/S0957417417300283)
 
