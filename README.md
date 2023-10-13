@@ -1,14 +1,11 @@
 # **NMTFcoclust**  
-
 [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)
 ![](https://badgen.net/badge/DOI/10.1016j.eswa.2023.120680/blue?icon=instgrame)
 [![Go Report Card](https://goreportcard.com/badge/github.com/bitnami/gonit)](https://goreportcard.com/report/github.com/bitnami/gonit)
 [![PkgGoDev](https://pkg.go.dev/badge/mod/github.com/consensys/gnark)](https://pkg.go.dev/mod/github.com/consensys/gnark)
 ![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/NMTF/Coclust/pink?icon=instgrame)
 
-## NMTFcoclust (Non-negative Matrix Tri-Factorization for Co-clustering) is a package that implements decomposition on a data matrix $\mathbf{X}$ 
-	(document-word matrix and so on) with finding three  matrices $\mathbf{F}$ (roles membership rows), $\mathbf{G}$ (roles membership columns), and $\mathbf{S}$ 
-	(roles summary matrix) based on optimized $\alpha$-divergence.
+## NMTFcoclust (Non-negative Matrix Tri-Factorization for Co-clustering) is a package that implements decomposition on a data matrix $\mathbf{X}$ (document-word matrix and so on) with finding three  matrices $\mathbf{F}$ (roles membership rows), $\mathbf{G}$ (roles membership columns), and $\mathbf{S}$ (roles summary matrix).
 
  The low-rank approximation of $\mathbf{X}$ by
      $$\mathbf{X} \approx \mathbf{FSG}^{\top}$$
@@ -147,6 +144,7 @@ Please cite the following paper in your publication if you are using [`NMTFcoclu
 } 
 ```
 
+[Orginal paper] [Saeid, Hoseinipour et al, Orthogonal parametric non-negative matrix tri-factorization with $\alpha$-Divergence for co-clustering, Expert Systems with Applications (2023).](https://doi.org/10.1016/j.eswa.2023.120680)
 ## Supplementary material
 **OPNMTF** implements on synthetic datasets such as Bernoulli, Poisson, and Truncated Gaussian.
 - [Available from GitHub](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Supplementary%20material)
