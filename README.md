@@ -61,7 +61,7 @@ coclust==0.2.1
 
 ### [Datasets](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Datasets)
 
-| Datasets | Documents | Words | Sporsity | Number of clusters |
+| Datasets | \#Documents | \#Words | Sporsity | Number of clusters |
 | -- | ----------- | -- | -- | -- |
 | [CSTR](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Datasets/cstr.mat) | 475 | 1000 | 96% | 4 |
 | [WebACE](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Datasets/WebACE..mat) |2340  |1000  | 91.83% |20  |
