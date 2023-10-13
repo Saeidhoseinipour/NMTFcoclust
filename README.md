@@ -5,11 +5,10 @@
 [![PkgGoDev](https://pkg.go.dev/badge/mod/github.com/consensys/gnark)](https://pkg.go.dev/mod/github.com/consensys/gnark)
 ![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/NMTF/Coclust/pink?icon=instgrame)
 
-## NMTFcoclust (Non-negative Matrix Tri-Factorization for Co-clustering) is a package that implements decomposition on a data matrix $\mathbf{X}$ (document-word counts, movie-viewer ratings, and product-customer purchases matrices) with finding three  matrices $\mathbf{F}$ (roles membership rows), $\mathbf{G}$ (roles membership columns), and $\mathbf{S}$ (roles summary matrix).
 
-## NMTFcoclust (Non-negative Matrix Tri-Factorization for Co-clustering)
+## `NMTFcoclust` (Non-negative Matrix Tri-Factorization for Co-clustering)
 
-NMTFcoclust is a package that implements decomposition on a data matrix 𝐗 (document-word counts, movie-viewer ratings, and product-customer purchases matrices) with the objective of finding three matrices:
+NMTFcoclust is a package that implements decomposition on a data matrix 𝐗 (document-word counts, movie-viewer ratings, and product-customer purchases matrices) with  finding three matrices:
 
 - **𝐅** (roles membership rows)
 - **𝐆** (roles membership columns)
