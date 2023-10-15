@@ -3,6 +3,7 @@
 [![](https://badgen.net/badge/DOI/10.1016j.eswa.2023.120680/blue?icon=instgrame)]()
 [![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/NMTF/Coclust/pink?icon=instgrame)](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Models)
 [![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/Original/Paper/yellow?icon=instgrame)](https://www.sciencedirect.com/science/article/abs/pii/S095741742301182X?via%3Dihub)
+[![Supplementary material](https://badgen.net/badge/Supplementary/material/orange?icon=instgrame)](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-mmc1.pdf)
 [![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/Purchase/PDF/brown?icon=instgrame)](https://www.sciencedirect.com/getaccess/pii/S095741742301182X/purchase)
 
 ## [`NMTFcoclust` (Non-negative Matrix Tri-Factorization for Co-clustering)](https://www.sciencedirect.com/science/article/abs/pii/S095741742301182X)
