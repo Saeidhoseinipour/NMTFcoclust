@@ -1,16 +1,8 @@
 # [**NMTFcoclust**](https://www.sciencedirect.com/science/article/abs/pii/S095741742301182X)  
 [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)
 [![](https://badgen.net/badge/DOI/10.1016j.eswa.2023.120680/blue?icon=instgrame)]()
-
-
-[![Go Report Card](https://goreportcard.com/badge/github.com/bitnami/gonit)](https://goreportcard.com/report/github.com/bitnami/gonit)
-
-[![PkgGoDev](https://pkg.go.dev/badge/mod/github.com/consensys/gnark)](https://pkg.go.dev/mod/github.com/consensys/gnark)
-
 ![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/NMTF/Coclust/pink?icon=instgrame)
-
 [![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/Original/Paper/yellow?icon=instgrame)](https://www.sciencedirect.com/science/article/abs/pii/S095741742301182X?via%3Dihub)
-
 [![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/Purchase/PDF/brown?icon=instgrame)](https://www.sciencedirect.com/getaccess/pii/S095741742301182X/purchase)
 
 ## [`NMTFcoclust` (Non-negative Matrix Tri-Factorization for Co-clustering)](https://www.sciencedirect.com/science/article/abs/pii/S095741742301182X)
@@ -20,8 +12,8 @@ NMTFcoclust is a package that implements decomposition on a data matrix 𝐗 (do
 - **𝐆** (roles membership columns)
 - **𝐒** (roles summary matrix)
 
- The low-rank approximation of $\mathbf{X}$ by
-     $$\mathbf{X} \approx \mathbf{FSG}^{\top}$$
+ The low-rank approximation of \mathbf{X}\mathbf{X} by
+     \mathbf{X} \approx \mathbf{FSG}^{\top}\mathbf{X} \approx \mathbf{FSG}^{\top}
      
 <img alt="Screenshot: 'README.md'" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/NMTF2.png?raw=true" width="100%">
 
