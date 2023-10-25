@@ -13,7 +13,7 @@ NMTFcoclust is a package that implements decomposition on a data matrix 𝐗 (do
 - **𝐆** (roles membership columns)
 - **𝐒** (roles summary matrix)
 
- The low-rank approximation of \mathbf{X} by
+ The low-rank approximation of $\mathbf{X}$ by
      $$\mathbf{X} \approx \mathbf{FSG}^{\top}$$
      
 <img alt="Screenshot: 'README.md'" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/NMTF2.png?raw=true" width="100%">
