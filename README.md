@@ -154,6 +154,13 @@ Please cite the following paper in your publication if you are using [`NMTFcoclu
 - [Available from GitHub](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Supplementary%20material)
 - [Available from ESWA](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-mmc1.pdf)
 - [Personalized URL providing 50 days' free access to the article](https://authors.elsevier.com/c/1hFjU_LnESYZ-~)
+
+## Highlights
+- Our algorithm works by multiplicative update rules and it is convergence.
+- Adding two penalties  for controlling the orthogonality of row and column clusters.
+- Unifying a class of algorithms for co-clustering based on $\alpha$-divergence.
+- All datasets and algorithm codes are available on GitHub as \href{https://github.com/Saeidhoseinipour/NMTF.git}{\color{blue}{NMTFcoclust}} repository.
+
 ## References
 
 [1] [Saeid, Hoseinipour et al, Orthogonal parametric non-negative matrix tri-factorization with $\alpha$-Divergence for co-clustering, Expert Systems with Applications (2023).](https://doi.org/10.1016/j.eswa.2023.120680)
