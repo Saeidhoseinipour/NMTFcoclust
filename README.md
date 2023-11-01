@@ -16,7 +16,7 @@ NMTFcoclust is a package that implements decomposition on a data matrix 𝐗 (do
  The low-rank approximation of $\mathbf{X}$ by
      $$\mathbf{X} \approx \mathbf{FSG}^{\top}$$
      
-<img alt="Screenshot: 'README.md'" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/NMTF2.png?raw=true" width="100%">
+<img alt="NMTF, Saeid Hoseinipour, text mining, Co-clustering" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/NMTF2.png?raw=true" width="100%">
 
 
 ## Brief description of models
@@ -159,7 +159,7 @@ Please cite the following paper in your publication if you are using [`NMTFcoclu
 - Our algorithm works by multiplicative update rules and it is convergence.
 - Adding two penalties  for controlling the orthogonality of row and column clusters.
 - Unifying a class of algorithms for co-clustering based on $\alpha$-divergence.
-- All datasets and algorithm codes are available on GitHub as \href{https://github.com/Saeidhoseinipour/NMTF.git}{\color{blue}{NMTFcoclust}} repository.
+- All datasets and algorithm codes are available on GitHub as [`NMTFcoclust`]() repository.
 
 ## References
 
