@@ -162,9 +162,9 @@ Please cite the following paper in your publication if you are using [`NMTFcoclu
 
 
 
-## Presitation video
+##  Presentation video
 
-[![Video Title](https://img.youtube.com/vi/LCamkfTYGyM/0.jpg)](https://www.youtube.com/watch?v=LCamkfTYGyM)
+[![Presentation video for OPNMTF](https://img.youtube.com/vi/LCamkfTYGyM/0.jpg)](https://www.youtube.com/watch?v=LCamkfTYGyM)
 
 
 
