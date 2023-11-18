@@ -160,6 +160,14 @@ Please cite the following paper in your publication if you are using [`NMTFcoclu
 - Unifying a class of algorithms for co-clustering based on $\alpha$-divergence.
 - All datasets and algorithm codes are available on GitHub as [`NMTFcoclust`]() repository.
 
+
+
+## Presitation video
+
+[![Video Title](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=LCamkfTYGyM)
+
+
+
 ## References
 
 [1] [Saeid, Hoseinipour et al, Orthogonal parametric non-negative matrix tri-factorization with $\alpha$-Divergence for co-clustering, Expert Systems with Applications (2023).](https://doi.org/10.1016/j.eswa.2023.120680)
