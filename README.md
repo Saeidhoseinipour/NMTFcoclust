@@ -161,7 +161,7 @@ Please cite the following paper in your publication if you are using [`NMTFcoclu
 - All datasets and algorithm codes are available on GitHub as [`NMTFcoclust`]() repository.
 
 
-!<--
+<!--
 ##  Presentation video
 
 [![Presentation video for OPNMTF](https://img.youtube.com/vi/LCamkfTYGyM/0.jpg)](https://www.youtube.com/watch?v=LCamkfTYGyM)
