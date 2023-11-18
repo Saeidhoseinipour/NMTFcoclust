@@ -164,7 +164,7 @@ Please cite the following paper in your publication if you are using [`NMTFcoclu
 
 ## Presitation video
 
-[![Video Title](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=LCamkfTYGyM)
+[![Video Title](https://www.youtube.com/watch?v=LCamkfTYGyM)](https://www.youtube.com/watch?v=LCamkfTYGyM)
 
 
 
