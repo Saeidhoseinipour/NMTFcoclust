@@ -14,6 +14,7 @@ NMTFcoclust is a package that implements decomposition on a data matrix 𝐗 (do
 - **𝐒** (roles summary matrix)
 
 
+
  The low-rank approximation of $\mathbf{X}$ by
      $$\mathbf{X} \approx \mathbf{FSG}^{\top}$$
      
