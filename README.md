@@ -168,6 +168,7 @@ Please cite the following paper in your publication if you are using [`NMTFcoclu
 - [Available from ESWA](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-mmc1.pdf)
 - [Personalized URL providing 50 days' free access to the article](https://authors.elsevier.com/c/1hFjU_LnESYZ-~)
 
+
 ## Highlights
 - Our algorithm works by multiplicative update rules and it is convergence.
 - Adding two penalties  for controlling the orthogonality of row and column clusters.
@@ -178,10 +179,11 @@ Please cite the following paper in your publication if you are using [`NMTFcoclu
 <!--
 ##  Presentation video
 
-[![Presentation video for OPNMTF](https://img.youtube.com/vi/LCamkfTYGyM/0.jpg)](https://www.youtube.com/watch?v=LCamkfTYGyM)
+[![Presentation video for OPNMTF](https://img.youtube.com/vi/LCamkfTYGyM/0.jpg)](https://www.youtube.com/watch?v=LCamkfTYGyM&t=5s)
 
 -->
 
+[![Alt text](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
 
 
 
