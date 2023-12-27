@@ -176,12 +176,11 @@ Please cite the following paper in your publication if you are using [`NMTFcoclu
 - All datasets and algorithm codes are available on GitHub as [`NMTFcoclust`]() repository.
 
 
-<!--
 ##  Presentation video
 
 [![Presentation video for OPNMTF, Text mining, Matrix factorization, Co-clustering](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/OPNMTF_video.png)](https://www.youtube.com/watch?v=LCamkfTYGyM&t=5s)
 
--->
+
 
 [![Alt text](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
 
