@@ -180,10 +180,11 @@ Please cite the following paper in your publication if you are using [`NMTFcoclu
 
 [![Presentation video for OPNMTF, Text mining, Matrix factorization, Co-clustering](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/OPNMTF_video.png)](https://www.youtube.com/watch?v=LCamkfTYGyM&t=5s)
 
-
-
-[![Alt text](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
-
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=LCamkfTYGyM&t=5s">
+    <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/OPNMTF_video.png" alt="Presentation video for OPNMTF, Text mining, Matrix factorization, Co-clustering" style="width:80%; transform: perspective(1000px) rotateY(-20deg);">
+  </a>
+</p>
 
 
 ## References
