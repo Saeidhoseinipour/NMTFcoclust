@@ -6,7 +6,9 @@
 [![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/Purchase/PDF/brown?icon=instgrame)](https://www.sciencedirect.com/getaccess/pii/S095741742301182X/purchase)
 [![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/Presentation/Video/green?icon=instgrame)](https://www.sciencedirect.com/getaccess/pii/S095741742301182X/purchase)
 [![https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Models/NMTFcoclust_OPNMTF_alpha.py](https://badgen.net/badge/OPNMTF/Coclust/pink?icon=instgrame)](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Models/NMTFcoclust_OPNMTF_alpha.py)
+[![https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Models/NMTFcoclust_OPNMTF_alpha.py](https://badgen.net/badge/ACM/Digital_Library/pink?icon=instgrame)](https://dl.acm.org/doi/10.1016/j.eswa.2023.120680)
 
+ 
 
 ## [`NMTFcoclust` (Non-negative Matrix Tri-Factorization for Co-clustering)](https://www.sciencedirect.com/science/article/abs/pii/S095741742301182X)
 NMTFcoclust is a package that implements decomposition on a data matrix 𝐗 (document-word counts, movie-viewer ratings, and product-customer purchases matrices) with  finding three matrices:
