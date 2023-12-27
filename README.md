@@ -11,8 +11,7 @@
 [![https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Models/NMTFcoclust_OPNMTF_alpha.py](https://badgen.net/badge/X/Mol/blue?icon=instgrame)](https://www.x-mol.net/paper/article/1665507162148552704)
 [![https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Models/NMTFcoclust_OPNMTF_alpha.py](https://badgen.net/badge/PlumX/Metrics/green?icon=instgrame)](https://plu.mx/plum/a/?doi=10.1016/j.eswa.2023.120680&theme=plum-sciencedirect-theme&hideUsage=true)
  [![https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Models/NMTFcoclust_OPNMTF_alpha.py](https://badgen.net/badge/Colab/WS/red?icon=instgrame)](https://colab.ws/articles/10.1016/j.eswa.2023.120680)
-
-
+ [![https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Models/NMTFcoclust_OPNMTF_alpha.py](https://badgen.net/badge/Prereview/PDF/pink?icon=instgrame)](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/SSRN-id4416222_Prereview_OPNMTF.pdf)
 
 
 
