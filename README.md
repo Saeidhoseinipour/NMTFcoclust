@@ -13,7 +13,16 @@
  [![https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Models/NMTFcoclust_OPNMTF_alpha.py](https://badgen.net/badge/Colab/WS/red?icon=instgrame)](https://colab.ws/articles/10.1016/j.eswa.2023.120680)
  [![https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Models/NMTFcoclust_OPNMTF_alpha.py](https://badgen.net/badge/Prereview/PDF/pink?icon=instgrame)](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/SSRN-id4416222_Prereview_OPNMTF.pdf)
 
-
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Brief Description of Models](#brief-description-of-models)
+3. [Requirements](#requirements)
+4. [Datasets](#datasets)
+5. [Model Implementation](#model-implementation)
+6. [Cite](#cite)
+7. [Supplementary Material](#supplementary-material)
+8. [Presentation Video](#presentation-video)
+9. [References](#references)
 
 
 ## [`NMTFcoclust` (Non-negative Matrix Tri-Factorization for Co-clustering)](https://www.sciencedirect.com/science/article/abs/pii/S095741742301182X)
