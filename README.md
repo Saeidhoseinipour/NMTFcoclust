@@ -14,7 +14,7 @@
  [![https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Models/NMTFcoclust_OPNMTF_alpha.py](https://badgen.net/badge/Prereview/PDF/pink?icon=instgrame)](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/SSRN-id4416222_Prereview_OPNMTF.pdf)
 
 ## Table of Contents
-1. [Introduction](#introduction)
+1. [Non-negative Matrix Tri-Factorization for Co-clustering](#Non-negative-Matrix-Tri-Factorization-for-Co-clustering)
 2. [Brief Description of Models](#brief-description-of-models)
 3. [Requirements](#requirements)
 4. [Datasets](#datasets)
