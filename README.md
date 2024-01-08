@@ -15,6 +15,7 @@
 [![](https://badgen.net/badge/Devpost/OPNMTF/blue?icon=instgrame)](https://devpost.com/software/nmtfcoclust)
 
 
+
 ## Table of Contents
 1. [Non-negative Matrix Tri-Factorization for Co-clustering](#Non-negative-Matrix-Tri-Factorization-for-Co-clustering)
 2. [Brief Description of Models](#brief-description-of-models)
