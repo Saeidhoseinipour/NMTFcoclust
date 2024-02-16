@@ -45,8 +45,8 @@ NMTFcoclust is a package that implements decomposition on a data matrix 𝐗 (do
 
 
 
- The low-rank approximation of $\mathbf{X}$ by
-     $$\mathbf{X} \approx \mathbf{FSG}^{\top}$$
+ The low-rank approximation of \mathbf{X}\mathbf{X} by
+     \mathbf{X} \approx \mathbf{FSG}^{\top}\mathbf{X} \approx \mathbf{FSG}^{\top}
      
 <img alt="NMTF, Saeid Hoseinipour, text mining, Co-clustering" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/NMTF2.png?raw=true" width="100%">
 
