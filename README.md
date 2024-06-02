@@ -48,6 +48,7 @@ NMTFcoclust is a package that implements decomposition on a data matrix 𝐗 (do
 <img alt="NMTF, Saeid Hoseinipour, text mining, Co-clustering" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/NMTF2.png?raw=true" width="100%">
 
 
+
 ## Brief description of models
 `NMTFcoclust` implements the proposed algorithm (**OPNMTF**) and some NMTF according to the objective functions below:
 - [**OPNMTF**](https://www.sciencedirect.com/science/article/abs/pii/S095741742301182X) 
