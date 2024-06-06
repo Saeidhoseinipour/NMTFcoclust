@@ -50,6 +50,7 @@ NMTFcoclust is a package that implements decomposition on a data matrix 𝐗 (do
 
 
 
+
 ## Brief description of models
 `NMTFcoclust` implements the proposed algorithm (**OPNMTF**) and some NMTF according to the objective functions below:
 - [**OPNMTF**](https://www.sciencedirect.com/science/article/abs/pii/S095741742301182X) 
