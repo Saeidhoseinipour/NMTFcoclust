@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/license-Apache/pink?icon=instgrame)](LICENSE)
+[![](https://img.shields.io/badge/license-Apache%pink)](LICENSE)
 
 [![](https://badgen.net/badge/DOI/10.1016j.eswa.2023.120680/pink?icon=instgrame)](https://www.sciencedirect.com/getaccess/pii/S095741742301182X/purchase)
 [![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/NMTF/Coclust/pink?icon=instgrame)](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Models)
