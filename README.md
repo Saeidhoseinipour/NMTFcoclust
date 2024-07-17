@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/license-Apache%pink)](LICENSE)
+[![](https://img.shields.io/badge/license-Apache%Pink)](LICENSE)
 [![](https://img.shields.io/badge/license-Apache-pink.svg)](LICENSE)
 
 [![](https://badgen.net/badge/DOI/10.1016j.eswa.2023.120680/pink?icon=instgrame)](https://www.sciencedirect.com/getaccess/pii/S095741742301182X/purchase)
