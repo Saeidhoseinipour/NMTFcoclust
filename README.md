@@ -185,7 +185,7 @@ Total Time:  26.558243700000276
 - [**Download full-size image available in ESWA**](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-gr4_lrg.jpg)
 
 ## Cite
-Please cite the following paper in your publication if you are using [`**NMTFcoclust**`]() in your research:
+Please cite the following paper in your publication if you are using [**NMTFcoclust**]() in your research:
 
 ```bibtex
  @article{NMTFcoclust, 
