@@ -53,7 +53,7 @@ NMTFcoclust  implements decomposition on a data matrix 𝐗 (document-word count
 
 
 
- The low-rank approximation of \mathbf{X} by
+ The low-rank approximation of 𝐗 by
 ```math
      \mathbf{X} \approx \mathbf{FSG}^{\top}
 ```
@@ -147,9 +147,9 @@ print(confusion_matrix(true_labels, true_labels))
 
 
 
-        Medical:        [[1033    0    0]
- Information Retrieval: [   0 1460    0]
- Aeronautical Systems:  [   0    0 1398]]
+ Medical:               [[1033    0     0]
+ Information Retrieval: [   0  1460     0]
+ Aeronautical Systems:  [   0    0   1398]]
 
 ```
 
@@ -159,7 +159,7 @@ print(confusion_matrix(true_labels, true_labels))
 from NMTFcoclust.Models.NMTFcoclust_OPNMTF_alpha_2 import OPNMTF
 from NMTFcoclust.Evaluation.EV import Process_EV
 
-OPNMTF_alpha = OPNMTF(n_row_clusters = 3, n_col_clusters = 3, landa = 0.3,  mu = 0.3,  alpha = 0.4, max_iter=1)
+OPNMTF_alpha = OPNMTF(n_row_clusters = 3, n_col_clusters = 3, landa = 0.3,  mu = 0.3,  alpha = 0.4)
 OPNMTF_alpha.fit(X_Classic3_sum_1)
 Process_Ev = Process_EV( true_labels ,X_Classic3_sum_1, OPNMTF_alpha) 
 
@@ -179,23 +179,23 @@ Total Time:  26.558243700000276
 ![DC](?raw=true)
 
 <a href="">
-  <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/WC_classic3.png" alt="OPNMTF, Text mining, Matrix factorization, Co-clustering, Saeid Hoseinipour, divergence" style="width: 70%;">
+  <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/WC_classic3.png" alt="OPNMTF, Text mining, Matrix factorization, Co-clustering, Saeid Hoseinipour, divergence, wordcloud" style="width: 70%;">
 </a>
 
-- [Download full-size image available in ESWA](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-gr4_lrg.jpg)
+- [**Download full-size image available in ESWA**](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-gr4_lrg.jpg)
 
 ## Cite
 Please cite the following paper in your publication if you are using [`NMTFcoclust`]() in your research:
 
 ```bibtex
  @article{NMTFcoclust, 
-    title={Orthogonal Parametric Non-negative Matrix Tri-Factorization with $\alpha$-Divergence for Co-clustering}, 
-    DOI={10.1016/j.eswa.2023.120680},
-    volume  = {231}, 
-    number   = {120680},
-    journal={Expert Systems with Applications}, 
-    authors={Saeid Hoseinipour, Mina Aminghafari, Adel Mohammadpour}, 
-    year={2023}
+    title=            {Orthogonal Parametric Non-negative Matrix Tri-Factorization with $\alpha$-Divergence for Co-clustering}, 
+    DOI=              {10.1016/j.eswa.2023.120680},
+    volume  =         {231}, 
+    number   =        {120680},
+    journal=          {Expert Systems with Applications}, 
+    authors=          {Saeid Hoseinipour, Mina Aminghafari, Adel Mohammadpour}, 
+    year=             {2023}
 } 
 ```
 
