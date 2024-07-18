@@ -191,8 +191,8 @@ Please cite the following paper in your publication if you are using [`NMTFcoclu
  @article{NMTFcoclust, 
     title=            {Orthogonal Parametric Non-negative Matrix Tri-Factorization with $\alpha$-Divergence for Co-clustering}, 
     DOI=              {10.1016/j.eswa.2023.120680},
-    volume  =         {231}, 
-    number   =        {120680},
+    volume=           {231}, 
+    number=           {120680},
     journal=          {Expert Systems with Applications}, 
     authors=          {Saeid Hoseinipour, Mina Aminghafari, Adel Mohammadpour}, 
     year=             {2023}
