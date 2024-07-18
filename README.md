@@ -56,7 +56,7 @@ NMTFcoclust  implements decomposition on a data matrix 𝐗 (document-word count
  The low-rank approximation of \mathbf{X}\mathbf{X} by
      \mathbf{X} \approx \mathbf{FSG}^{\top}\mathbf{X} \approx \mathbf{FSG}^{\top}
      
-<img alt="NMTF, Saeid Hoseinipour, text mining, Co-clustering" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/NMTF2.png?raw=true" width="100%">
+<img alt="OPNMTF,NMTF, Saeid Hoseinipour, text mining, Co-clustering, wordcloud, NMTFcoclust" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/NMTF2.png?raw=true" width="100%">
 
 
 
@@ -75,7 +75,7 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
 ```
 - [ONMTF](https://www.sciencedirect.com/science/article/abs/pii/S0306457310000038)
 ```math
-	0.5 ||\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}||^{2}
+0.5 ||\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}||^{2}
 ```
 - [NBVD](https://dl.acm.org/doi/abs/10.1145/1081870.1081949)
  $$||\mathbf{X}-\mathbf{FSG}^{\top}||^{2}$$
