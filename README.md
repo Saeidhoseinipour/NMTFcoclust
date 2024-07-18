@@ -78,7 +78,9 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
 0.5 ||\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}||^{2}
 ```
 - [NBVD](https://dl.acm.org/doi/abs/10.1145/1081870.1081949)
- $$||\mathbf{X}-\mathbf{FSG}^{\top}||^{2}$$
+```math
+ ||\mathbf{X}-\mathbf{FSG}^{\top}||^{2}
+```
 - [ONM3T](https://dl.acm.org/doi/abs/10.1145/1150402.1150420)
 ```math
 	||\mathbf{X}-\mathbf{F}\mathbf{S}\mathbf{G}^{\top}||^{2}+ 
