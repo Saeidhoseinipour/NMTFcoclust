@@ -54,9 +54,9 @@ NMTFcoclust  implements decomposition on a data matrix 𝐗 (document-word count
 
 
  The low-rank approximation of \mathbf{X}\mathbf{X} by
-     ```math
+```math
      \mathbf{X} \approx \mathbf{FSG}^{\top}\mathbf{X} \approx \mathbf{FSG}^{\top}
-     ```
+```
 <img alt="OPNMTF,NMTF, Saeid Hoseinipour, text mining, Co-clustering, wordcloud, NMTFcoclust" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/NMTF2.png?raw=true" width="100%">
 
 
