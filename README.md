@@ -46,6 +46,30 @@
 </table>
 
 
+<table>
+  <tr>
+    <td style="vertical-align: top;">
+      <ul>
+        <li><a href="#non-negative-matrix-tri-factorization-for-co-clustering">Non-negative Matrix Tri-Factorization for Co-clustering</a></li>
+        <li><a href="#brief-description-of-models">Brief Description of Models</a></li>
+        <li><a href="#requirements">Requirements</a></li>
+        <li><a href="#datasets">Datasets</a></li>
+        <li><a href="#model-implementation">Model Implementation</a></li>
+        <li><a href="#cite">Cite</a></li>
+        <li><a href="#supplementary-material">Supplementary Material</a></li>
+        <li><a href="#presentation-video">Presentation Video</a></li>
+        <li><a href="#references">References</a></li>
+      </ul>
+    </td>
+    <td>
+      <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF.png" alt="Saeid Hoseinipour" style="width:250px; box-shadow: 5px 5px 15px rgba(0,0,0,0.3); transform: rotateY(10deg);">
+    </td>
+    <td>
+      <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Supplementary%20material/P_OPNMTF.png" alt="Saeid Hoseinipour" style="width:200px; box-shadow: 5px 5px 15px rgba(0,0,0,0.3); transform: rotateY(-10deg);">
+    </td>
+  </tr>
+</table>
+
 
 
 ## [`NMTFcoclust` (Non-negative Matrix Tri-Factorization for Co-clustering)](https://www.sciencedirect.com/science/article/abs/pii/S095741742301182X)
