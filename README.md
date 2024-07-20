@@ -218,11 +218,11 @@ Please cite the following paper in your publication if you are using [**NMTFcocl
 
 
 ## Contributions
-- We proposed a co-clustering algorithm Orthogonal Parametric Non-negative Matrix Tri-Factorization (OPNMTF) by Adding two penalty terms for controlling the orthogonality of row and column clusters based on $𝛼$-divergence.
-- We use the $𝛼$-divergence as a measure of divergence between the
+- We proposed a co-clustering algorithm Orthogonal Parametric Non-negative Matrix Tri-Factorization (OPNMTF) by Adding two penalty terms for controlling the orthogonality of row and column clusters based on 𝛼-divergence.
+- We use the 𝛼-divergence as a measure of divergence between the
 observation matrix and the approximation matrix. This unification permits more flexibility in determining divergence measures
-by changing the value of $𝛼$.
-- Experiments on six real text datasets demonstrate the effectiveness of the proposed model compared to the state-of-the-art co-clustering methods.
+by changing the value of 𝛼.
+- Experiments on six real text datasets demonstrate the effectiveness of the proposed model compared to the state-of-the-art co-clustering methods.
 
 
 ## Highlights
@@ -278,4 +278,4 @@ by changing the value of $𝛼$.
 
 [8] [Cichocki et al, Non-negative matrix factorization with $\alpha$-divergence (2008), Pattern Recognition Letters.](https://www.sciencedirect.com/science/article/abs/pii/S0167865508000767)
 
-[9] [Saeid, Hoseinipour et al, Orthogonal parametric non-negative matrix tri-factorization with $\alpha$-Divergence for co-clustering, Expert Systems with Applications (2023).](https://doi.org/10.1016/j.eswa.2023.120680)
+[9] [Saeid, Hoseinipour et al, Orthogonal parametric non-negative matrix tri-factorization with 𝛼-Divergence for co-clustering, Expert Systems with Applications (2023).](https://doi.org/10.1016/j.eswa.2023.120680)
