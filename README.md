@@ -37,10 +37,10 @@
       </ul>
     </td>
     <td>
-      <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF.png" alt="Saeid Hoseinipour" style="width:250px;">
+      <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF.png" alt="Saeid Hoseinipour" style="width:230px;">
     </td>
     <td>
-      <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Supplementary%20material/P_OPNMTF.png" alt="Saeid Hoseinipour" style="width:200px;">
+      <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Supplementary%20material/P_OPNMTF.png" alt="Saeid Hoseinipour" style="width:190px;">
     </td>
   </tr>
 </table>
