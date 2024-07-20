@@ -174,7 +174,6 @@ Confusion Matrix (CM):
 Total Time:  26.558243700000276
 ```
 
-![DC](?raw=true)
 
 <a href="">
   <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/WC_classic3.png" alt="OPNMTF, Text mining, Matrix factorization, Co-clustering, Saeid Hoseinipour, divergence, wordcloud" style="width: 70%;">
