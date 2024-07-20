@@ -40,6 +40,29 @@
 
 
 
+<table>
+  <tr>
+    <td style="vertical-align: top;">
+      <ul>
+        <li><a href="#non-negative-matrix-tri-factorization-for-co-clustering">Non-negative Matrix Tri-Factorization for Co-clustering</a></li>
+        <li><a href="#brief-description-of-models">Brief Description of Models</a></li>
+        <li><a href="#requirements">Requirements</a></li>
+        <li><a href="#datasets">Datasets</a></li>
+        <li><a href="#model-implementation">Model Implementation</a></li>
+        <li><a href="#cite">Cite</a></li>
+        <li><a href="#supplementary-material">Supplementary Material</a></li>
+        <li><a href="#presentation-video">Presentation Video</a></li>
+        <li><a href="#references">References</a></li>
+      </ul>
+    </td>
+    <td>
+      <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF.png" alt="Saeid Hoseinipour" style="width:300px;">
+    </td>
+    <td>
+      <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Supplementary%20material/P_OPNMTF.png" alt="Saeid Hoseinipour" style="width:300px;">
+    </td>
+  </tr>
+</table>
 
 
 
