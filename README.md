@@ -256,7 +256,7 @@ by changing the value of 𝛼.
 -->
 
 <a href="">
-  <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/Cover_OPNMTF.png" alt="Presentation video for OPNMTF, Text mining, Matrix factorization, Co-clustering, Saeid Hoseinipour" style="width: 70%;">
+  <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/Cover_OPNMTF.png" alt="Presentation video for OPNMTF, Text mining, Matrix factorization, Co-clustering, Saeid Hoseinipour" style="width: 50%;">
 </a>
 
 ## References
