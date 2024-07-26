@@ -63,7 +63,7 @@ NMTFcoclust  implements decomposition on a data matrix 𝐗 (document-word count
 ```math
      \mathbf{X} \approx \mathbf{FSG}^{\top}
 ```
-<img alt="OPNMTF,NMTF, Saeid Hoseinipour, text mining, Co-clustering, wordcloud, NMTFcoclust" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/NMTF2.png?raw=true" width="100%">
+<img alt="non-negative matrix tri-factorization,OPNMTF,NMTF, Saeid Hoseinipour, text mining, Co-clustering, wordcloud, NMTFcoclust" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/NMTF2.png?raw=true" width="100%">
 
 
 
@@ -186,7 +186,7 @@ Total Time:  26.558243700000276
 
 
 <a href="">
-  <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/WC_classic3.png" alt="OPNMTF, Text mining, Matrix factorization, Co-clustering, Saeid Hoseinipour, divergence, wordcloud" style="width: 70%;">
+  <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/WC_classic3.png" alt="non-negative matrix tri-factorization,OPNMTF, Text mining, Matrix factorization, Co-clustering, Saeid Hoseinipour, divergence, wordcloud" style="width: 70%;">
 </a>
 
 - [**Download full-size image available in ESWA**](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-gr4_lrg.jpg)
@@ -236,12 +236,12 @@ by changing the value of 𝛼.
 
 <!--
 
-[![Presentation video for OPNMTF, Text mining, Matrix factorization, Co-clustering](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/OPNMTF_video.png)](https://www.youtube.com/watch?v=LCamkfTYGyM&t=5s)
+[![saeid hoseinipour, Presentation video for OPNMTF, Text mining, Matrix factorization, Co-clustering](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/OPNMTF_video.png)](https://www.youtube.com/watch?v=LCamkfTYGyM&t=5s)
 
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=LCamkfTYGyM&t=5s">
-    <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/OPNMTF_video.png" alt="Presentation video for OPNMTF, Text mining, Matrix factorization, Co-clustering" style="width:60%; transform: perspective(1000px) rotateY(-70deg);">
+    <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/OPNMTF_video.png" alt="saeid hoseinipour, Presentation video for OPNMTF, Text mining, Matrix factorization, Co-clustering" style="width:60%; transform: perspective(1000px) rotateY(-70deg);">
   </a>
 </p>
 
