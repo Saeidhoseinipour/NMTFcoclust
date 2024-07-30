@@ -58,8 +58,6 @@ NMTFcoclust  implements decomposition on a data matrix 𝐗 (document-word count
 
 
 
-
-
  The low-rank approximation of 𝐗 by
 ```math
      \mathbf{X} \approx \mathbf{FSG}^{\top}
