@@ -192,20 +192,6 @@ Total Time:  26.558243700000276
 
 - [**Download full-size image available in ESWA**](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-gr4_lrg.jpg)
 
-## Cite
-Please cite the following paper in your publication if you are using [**NMTFcoclust**]() in your research:
-
-```bibtex
- @article{NMTFcoclust, 
-    title=            {Orthogonal Parametric Non-negative Matrix Tri-Factorization with $\alpha$-Divergence for Co-clustering}, 
-    DOI=              {10.1016/j.eswa.2023.120680},
-    volume=           {231}, 
-    number=           {120680},
-    journal=          {Expert Systems with Applications}, 
-    authors=          {Saeid Hoseinipour, Mina Aminghafari, Adel Mohammadpour}, 
-    year=             {2023}
-} 
-```
 
 ## Supplementary material
 **OPNMTF** implements on synthetic datasets such as Bernoulli, Poisson, and Truncated Gaussian:
@@ -231,7 +217,20 @@ by changing the value of 𝛼.
 - Unifying a class of algorithms for co-clustering based on $\alpha$-divergence.
 - All datasets and algorithm codes are available on GitHub as [`NMTFcoclust`]() repository.
 
+## Cite
+Please cite the following paper in your publication if you are using [**NMTFcoclust**]() in your research:
 
+```bibtex
+ @article{NMTFcoclust, 
+    title=            {Orthogonal Parametric Non-negative Matrix Tri-Factorization with $\alpha$-Divergence for Co-clustering}, 
+    DOI=              {10.1016/j.eswa.2023.120680},
+    volume=           {231}, 
+    number=           {120680},
+    journal=          {Expert Systems with Applications}, 
+    authors=          {Saeid Hoseinipour, Mina Aminghafari, Adel Mohammadpour}, 
+    year=             {2023}
+} 
+```
 
 ##  Presentation video
 
