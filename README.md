@@ -221,7 +221,7 @@ by changing the value of 𝛼.
 Please cite the following paper in your publication if you are using [**NMTFcoclust**]() in your research:
 
 ```bibtex
- @article{NMTFcoclust, 
+ @article{Saeid_OPNMTF_2023, 
     title=            {Orthogonal Parametric Non-negative Matrix Tri-Factorization with $\alpha$-Divergence for Co-clustering}, 
     DOI=              {10.1016/j.eswa.2023.120680},
     volume=           {231}, 
