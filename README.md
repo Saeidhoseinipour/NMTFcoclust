@@ -222,7 +222,7 @@ Please cite the following paper in your publication if you are using [**NMTFcocl
 
 ```bibtex
  @article{Saeid_OPNMTF_2023, 
-    title=            {Orthogonal Parametric Non-negative Matrix Tri-Factorization with $\alpha$-Divergence for Co-clustering}, 
+    title=            {Orthogonal Parametric Non-negative Matrix Tri-Factorization with r'$\alpha$'-Divergence for Co-clustering}, 
     DOI=              {10.1016/j.eswa.2023.120680},
     volume=           {231}, 
     number=           {120680},
