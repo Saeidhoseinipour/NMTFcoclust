@@ -216,6 +216,7 @@ by changing the value of 𝛼.
 - Experiments on six real text datasets demonstrate the effectiveness of the proposed model compared to the state-of-the-art co-clustering methods.
 
 
+
 ## Highlights
 - Our algorithm works by multiplicative update rules and it is convergence.
 - Adding two penalties  for controlling the orthogonality of row and column clusters.
