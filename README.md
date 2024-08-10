@@ -33,7 +33,7 @@
         <li><a href="#model-implementation">Model Implementation</a></li>
         <li><a href="#cite">Cite</a></li>
         <li><a href="#supplementary-material">Supplementary Material</a></li>
-        <li><a href="#presentation-video">Presentation Video</a></li>
+        <li><a href="#presentation-video">Presentation</a></li>
         <li><a href="#references">References</a></li>
       </ul>
     </td>
@@ -240,7 +240,7 @@ Please cite the following paper in your publication if you are using [**NMTFcocl
 } 
 ```
 
-##  Presentation video
+##  Presentation
 
 <!--
 
