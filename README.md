@@ -168,7 +168,6 @@ print(confusion_matrix(true_labels, true_labels))
 ```
 
 
-
 ## Model
 
 ```python
@@ -194,7 +193,7 @@ Total Time:  26.558243700000276
 
 
 <a href="">
-  <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/WC_classic3.png" alt="non-negative matrix tri-factorization,OPNMTF, Text mining, Matrix factorization, Co-clustering, Saeid Hoseinipour, divergence, wordcloud" style="width: 100%;">
+  <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/WC_classic3.png" alt="non-negative matrix tri-factorization,OPNMTF, Orthogonal Parametric, Text mining, Matrix factorization, Co-clustering, Saeid Hoseinipour, divergence, wordcloud" style="width: 100%;">
 </a>
 
 - [**Download full-size image available in ESWA**](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-gr4_lrg.jpg)
