@@ -147,17 +147,17 @@ from sklearn.metrics import confusion_matrix
 
 
 
-                                                                   # Read Datasets ------->  Classic3
+                                                                  
 
 file_name=r"NMTFcoclust\Dataset\Classic3\classic3.mat"
 mydata = loadmat(file_name)
 
-                                                                    # Data matrix 
+                                                                    
 X_Classic3 = mydata['A'].toarray()
 X_Classic3_sum_1 = X_Classic3/X_Classic3.sum()
                                                                    
-true_labels = mydata['labels'].flatten().tolist()                   # True labels list [0,0,0,..,1,1,1,..,2,2,2]  n_row_cluster = 3
-true_labels = [x+1 for x in true_labels]                            # True labels list [1,1,1,..,2,2,2,..,3,3,3]  n_row_cluster = 3
+true_labels = mydata['labels'].flatten().tolist()                  
+true_labels = [x+1 for x in true_labels]                           
 print(confusion_matrix(true_labels, true_labels))
 
 
