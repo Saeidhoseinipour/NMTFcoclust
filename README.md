@@ -250,9 +250,12 @@ Please cite the following paper in your publication if you are using [**NMTFcocl
 } 
 ```
 
-##  Presentation
+
 
 <!--
+##  Presentation
+
+
 
 [![saeid hoseinipour, Presentation video for OPNMTF, Text mining, Matrix factorization, Co-clustering](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/OPNMTF_video.png)](https://www.youtube.com/watch?v=LCamkfTYGyM&t=5s)
 
@@ -270,11 +273,12 @@ Please cite the following paper in your publication if you are using [**NMTFcocl
   </svg>
 </p>
 
--->
 
 <a href="">
   <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/Cover_OPNMTF.png" alt="Presentation video for OPNMTF, Text mining, Matrix factorization, Co-clustering, Saeid Hoseinipour" style="width: 50%;">
 </a>
+
+-->
 
 ## References
 
