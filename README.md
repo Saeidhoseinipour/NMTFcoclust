@@ -1,4 +1,4 @@
-[![](https://badgen.net/badge/license/Apache/pink?icon=instgrame)](LICENSE)
+7[![](https://badgen.net/badge/license/Apache/pink?icon=instgrame)](LICENSE)
 [![](https://badgen.net/badge/DOI/10.1016j.eswa.2023.120680/pink?icon=instgrame)](https://www.sciencedirect.com/getaccess/pii/S095741742301182X/purchase)
 [![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/NMTF/Coclust/pink?icon=instgrame)](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Models)
 [![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/Original/Paper/pink?icon=instgrame)](https://www.sciencedirect.com/science/article/abs/pii/S095741742301182X?via%3Dihub)
@@ -57,9 +57,9 @@
 NMTFcoclust  implements decomposition on a data matrix 𝐗 (document-word counts, movie-viewer ratings, and product-customer purchases matrices) with  finding three matrices:
 
 
-- **𝐅** (roles membership rows)
-- **𝐆** (roles membership columns)
-- **𝐒** (roles summary matrix)
+- **𝐅**   (roles membership rows)
+- **𝐆**   (roles membership columns)
+- **𝐒**   (roles summary matrix)
 
 
 
