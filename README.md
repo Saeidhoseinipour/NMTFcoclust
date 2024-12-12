@@ -23,7 +23,7 @@
 
 
 
-<img alt="Screenshot: 'README.md'" src="https://github.com/Saeidhoseinipour/ELBMcoclust/blob/main/Images/C1.png?raw=true" width="100%">
+<img alt="Screenshot: 'README.md'" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/C1.png?raw=true" width="100%">
 
 
 
