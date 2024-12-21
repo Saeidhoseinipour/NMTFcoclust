@@ -58,8 +58,6 @@
 
 
 
-
-
 ## [`NMTFcoclust` (Non-negative Matrix Tri-Factorization for Co-clustering)](https://www.sciencedirect.com/science/article/abs/pii/S095741742301182X)
 NMTFcoclust  implements decomposition on a data matrix 𝐗 (document-word counts, movie-viewer ratings, and product-customer purchases matrices) with  finding three matrices:
 
