@@ -20,9 +20,6 @@
 
 
 
-
-
-
 <img alt="Screenshot: 'README.md'" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/C1.png?raw=true" width="100%">
 
 
