@@ -248,7 +248,6 @@ Please cite the following paper in your publication if you are using [**NMTFcocl
 ```
 
 
-
 <!--
 ##  Presentation
 
