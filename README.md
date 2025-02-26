@@ -18,11 +18,7 @@
 
 
 
-<img alt="Screenshot: 'README.md', saeid hoseinipour" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/C1.png?raw=true" width="100%">
-
-
-
-
+<img alt="Screenshot: 'README.md', saeid hoseinipour" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/C1.png?raw=true" width="10
 
 ## Table of Contents
 <table>
