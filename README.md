@@ -17,8 +17,6 @@
 [![](https://badgen.net/badge/Classic3/Dataset/pink?icon=instgrame)](https://github.com/Saeidhoseinipour/ELBMcoclust/tree/main/Datasets#readme)
 
 
-
-
 ## Table of Contents
 <table>
   <tr>
