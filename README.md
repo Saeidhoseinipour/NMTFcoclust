@@ -22,7 +22,7 @@
 
 
 <img alt="Screenshot: 'README.md'" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/image.png?raw=true" width="96%">
-
+<img alt="Screenshot: 'README.md'" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF.png?raw=true" width="96%">
 
 
 
