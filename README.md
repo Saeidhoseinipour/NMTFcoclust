@@ -2,6 +2,7 @@
 [![](https://badgen.net/badge/DOI/10.1016j.eswa.2023.120680/pink?icon=instgrame)](https://www.sciencedirect.com/getaccess/pii/S095741742301182X/purchase)
 [![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/NMTF/Coclust/pink?icon=instgrame)](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Models)
 [![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/Original/Paper/pink?icon=instgrame)](https://www.sciencedirect.com/science/article/abs/pii/S095741742301182X?via%3Dihub)
+[![](https://badgen.net/badge/HAL/Pdf/pink?icon=instgrame)](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF_HAL.pdf)
 [![Supplementary material](https://badgen.net/badge/Supplementary/material/pink?icon=instgrame)](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-mmc1.pdf)
 [![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/Purchase/PDF/pink?icon=instgrame)](https://www.sciencedirect.com/getaccess/pii/S095741742301182X/purchase)
 [![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/Presentation/Video/pink?icon=instgrame)](https://www.sciencedirect.com/getaccess/pii/S095741742301182X/purchase)
@@ -17,7 +18,6 @@
 [![](https://badgen.net/badge/Classic3/Dataset/pink?icon=instgrame)](https://github.com/Saeidhoseinipour/ELBMcoclust/tree/main/Datasets#readme)
 
 
-[![](https://badgen.net/badge/HAL/Pdf/pink?icon=instgrame)](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF_HAL.pdf)
 
 
 
