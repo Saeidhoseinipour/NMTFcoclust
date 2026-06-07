@@ -21,7 +21,7 @@
 
 
 <!-- <img alt="Screenshot: 'README.md'" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/image.png?raw=true" width="96%"> -->
-<img alt="Screenshot: 'README.md'" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF.png?raw=true" width="96%">
+<img alt="Screenshot: 'README.md'" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF.png?raw=true" width="90%">
 
 
 
@@ -42,7 +42,9 @@
       </ul>
     </td>
     <td>
-      <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF.png" alt="Saeid Hoseinipour" style="width:230px;">
+	  <a href="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF_HAL.pdf">
+	  <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF.png" alt="Saeid Hoseinipour" style="width:230px;">
+	  </a>
     </td>
     <td>
       <img src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Supplementary%20material/P_OPNMTF.png" alt="Saeid Hoseinipour" style="width:190px;">
