@@ -212,14 +212,6 @@ Total Time:  26.558243700000276
 - [**Download full-size image available in ESWA**](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-gr4_lrg.jpg)
 
 
-## Supplementary material
-**OPNMTF** implements on synthetic datasets such as Bernoulli, Poisson, and Truncated Gaussian:
-- [Available from HAL](https://hal.science/hal-05032037v1/file/OPNMTF_Saeid.pdf "Saeid Hoseinipour, orthogonal parameteric, matrix factorization, co-clustering, text mining, word cloud")
-- [Available from GitHub](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Supplementary%20material "Saeid Hoseinipour, orthogonal parameteric, matrix factorization, co-clustering, text mining, word cloud")
-- [Available from ESWA](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-mmc1.pdf "co-clustering, OPNMTF, NMTF, matrix factorization")
-- [Pre-review version](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Prereview_OPNMTF.pdf  "Saeid Hoseinipour, orthogonal parameteric, matrix factorization, co-clustering, text mining, word cloud")
-- [Personalized URL providing 50 days' free access to the orginal article](https://authors.elsevier.com/c/1hFjU_LnESYZ-~ "Saeid Hoseinipour, orthogonal parameteric, matrix factorization, co-clustering, text mining, word cloud")
-- [Industry Relations and Applications](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Applications "Saeid Hoseinipour, orthogonal parameteric, matrix factorization, co-clustering, text mining, word cloud")
 
 
 <img alt="non-negative matrix tri-factorization,OPNMTF,NMTF, Saeid Hoseinipour, text mining, Co-clustering, wordcloud, NMTFcoclust" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Supplementary%20material/WC_sup.png?raw=true" width="100%">
