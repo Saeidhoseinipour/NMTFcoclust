@@ -214,7 +214,7 @@ Total Time:  26.558243700000276
 
 ## Supplementary material
 **OPNMTF** implements on synthetic datasets such as Bernoulli, Poisson, and Truncated Gaussian:
-- [Available from HAL](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Supplementary%20material "Saeid Hoseinipour, orthogonal parameteric, matrix factorization, co-clustering, text mining, word cloud")
+- [Available from HAL](https://hal.science/hal-05032037v1/file/OPNMTF_Saeid.pdf "Saeid Hoseinipour, orthogonal parameteric, matrix factorization, co-clustering, text mining, word cloud")
 - [Available from GitHub](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Supplementary%20material "Saeid Hoseinipour, orthogonal parameteric, matrix factorization, co-clustering, text mining, word cloud")
 - [Available from ESWA](https://ars.els-cdn.com/content/image/1-s2.0-S095741742301182X-mmc1.pdf "co-clustering, OPNMTF, NMTF, matrix factorization")
 - [Pre-review version](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Prereview_OPNMTF.pdf  "Saeid Hoseinipour, orthogonal parameteric, matrix factorization, co-clustering, text mining, word cloud")
