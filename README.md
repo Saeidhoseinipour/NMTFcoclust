@@ -17,7 +17,14 @@
 [![](https://badgen.net/badge/Semanticscholar/259071441/pink?icon=instgrame)](https://www.semanticscholar.org/paper/Orthogonal-parametric-non-negative-matrix-with-for-Hoseinipour-Aminghafari/f2aa345a9a729171331f7d2aee7235772c7ac73a)
 [![](https://badgen.net/badge/Classic3/Dataset/pink?icon=instgrame)](https://github.com/Saeidhoseinipour/ELBMcoclust/tree/main/Datasets#readme)
 
+Official implementation of the paper:
 
+**Orthogonal Parametric Non-negative Matrix Tri-Factorization with α-Divergence for Co-clustering**
+
+Published in Expert Systems with Applications.
+
+Paper DOI: https://doi.org/10.1016/j.eswa.2023.120680  
+Code repository: https://github.com/Saeidhoseinipour/NMTFcoclust
 
 <!-- <img alt="Screenshot: 'README.md'" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/image.png?raw=true" width="96%"> -->
 <a href="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF_HAL.pdf">
