@@ -23,8 +23,8 @@
 Official implementation of the paper:
 
 **Orthogonal Parametric Non-negative Matrix Tri-Factorization with α-Divergence for Co-clustering**
-
-Published in Expert Systems with Applications.
+Saeid Hoseinipour, Mina Aminghafari, Adel Mohammadpour
+Published in **Expert Systems with Applications**, 2023.
 
 Paper DOI: https://doi.org/10.1016/j.eswa.2023.120680  
 Code repository: https://github.com/Saeidhoseinipour/NMTFcoclust
