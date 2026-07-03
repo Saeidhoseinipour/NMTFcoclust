@@ -31,11 +31,6 @@ Published in **Expert Systems with Applications**, 2023.
 Paper DOI: https://doi.org/10.1016/j.eswa.2023.120680  
 Code repository: https://github.com/Saeidhoseinipour/NMTFcoclust
 
-<!-- <img alt="Screenshot: 'README.md'" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/image.png?raw=true" width="96%"> -->
-<a href="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF_HAL.pdf">
-  <img alt="Screenshot: 'README.md'" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF.png?raw=true" width="85%">
-</a>
-
 
 
 **Downloads and Related Resources**
@@ -46,6 +41,14 @@ Code repository: https://github.com/Saeidhoseinipour/NMTFcoclust
 - [Personalized URL providing 50 days' free access to the orginal article](https://authors.elsevier.com/c/1hFjU_LnESYZ-~ "Saeid Hoseinipour, orthogonal parameteric, matrix factorization, co-clustering, text mining, word cloud")
 - [Industry Relations and Applications](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Applications "Saeid Hoseinipour, orthogonal parameteric, matrix factorization, co-clustering, text mining, word cloud")
 - [Available from Zenodo](https://doi.org/10.5281/zenodo.21093166"ZenodoDOI")
+
+
+<!-- <img alt="Screenshot: 'README.md'" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/image.png?raw=true" width="96%"> -->
+<a href="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF_HAL.pdf">
+  <img alt="Screenshot: 'README.md'" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF.png?raw=true" width="85%">
+</a>
+
+
 
 
 ## Table of Contents
