@@ -72,7 +72,7 @@ Code repository: https://github.com/Saeidhoseinipour/NMTFcoclust
 - [Pre-review version](https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Prereview_OPNMTF.pdf  "Saeid Hoseinipour, orthogonal parameteric, matrix factorization, co-clustering, text mining, word cloud")
 - [Personalized URL providing 50 days' free access to the orginal article](https://authors.elsevier.com/c/1hFjU_LnESYZ-~ "Saeid Hoseinipour, orthogonal parameteric, matrix factorization, co-clustering, text mining, word cloud")
 - [Industry Relations and Applications](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Applications "Saeid Hoseinipour, orthogonal parameteric, matrix factorization, co-clustering, text mining, word cloud")
-
+* [Available from Zenodo](https://doi.org/10.5281/zenodo.21093166"ZenodoDOI")
 
 
 
