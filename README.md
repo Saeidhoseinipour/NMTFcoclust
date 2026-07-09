@@ -153,6 +153,12 @@ D_{\alpha}(\mathbf{X}||\mathbf{FSG}^{\top})+
  ||\mathbf{X}-\mathbf{FF^{\top}XGG}^{\top}||^{2}
 ```
 
+
+
+<img alt="non-negative matrix tri-factorization,OPNMTF,NMTF, Saeid Hoseinipour, text mining, Co-clustering, wordcloud, NMTFcoclust" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/image_5.png?raw=true" width="100%">
+
+
+
 ## Requirements
 ```python
 numpy==1.18.3
