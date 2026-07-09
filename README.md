@@ -248,6 +248,10 @@ Total Time:  26.558243700000276
 <img alt="non-negative matrix tri-factorization,OPNMTF,NMTF, Saeid Hoseinipour, text mining, Co-clustering, wordcloud, NMTFcoclust" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Supplementary%20material/WC_sup.png?raw=true" width="100%">
 
 
+
+<img alt="non-negative matrix tri-factorization,OPNMTF,NMTF, Saeid Hoseinipour, text mining, Co-clustering, wordcloud, NMTFcoclust" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Supplementary%20material/image.png?raw=true" width="100%">
+
+
 ## Contributions
 - We proposed a co-clustering algorithm Orthogonal Parametric Non-negative Matrix Tri-Factorization (OPNMTF) by Adding two penalty terms for controlling the orthogonality of row and column clusters based on 𝛼-divergence.
 - We use the 𝛼-divergence as a measure of divergence between the
