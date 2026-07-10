@@ -251,9 +251,11 @@ Total Time:  26.558243700000276
 
 
 
+
 <img alt="non-negative matrix tri-factorization,OPNMTF,NMTF, Saeid Hoseinipour, text mining, Co-clustering, wordcloud, NMTFcoclust" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Supplementary%20material/WC_sup.png?raw=true" width="100%">
 
 
+<img alt="non-negative matrix tri-factorization,OPNMTF,NMTF, Saeid Hoseinipour, text mining, Co-clustering, wordcloud, NMTFcoclust" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/image_6.png?raw=true" width="100%">
 
 <img alt="non-negative matrix tri-factorization,OPNMTF,NMTF, Saeid Hoseinipour, text mining, Co-clustering, wordcloud, NMTFcoclust" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/Doc/Image/image.png?raw=true" width="100%">
 
