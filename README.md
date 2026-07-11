@@ -19,6 +19,22 @@
 [![](https://badgen.net/badge/Zenodo/DOI/pink?icon=instgrame)](https://doi.org/10.5281/zenodo.21093166)
 
 
+<h3 align="center">🎙 The Nature of Precision — Podcast</h3>
+
+<p align="center"><em>A podcast discussion on the opening chapter of "The Nature of Precision"</em></p>
+
+<p align="center"><strong>18 minutes · Persian</strong></p>
+
+<div align="center">
+  <audio controls style="width:100%; max-width:500px;">
+    <source src="https://files.catbox.moe/c4vu6t" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+<p align="center">🔗 <a href="https://drive.google.com/file/d/1lD88Xh4Q5kVARRB9HELrhvwfJ8e7ZOQd/view?usp=sharing">Listen on Google Drive</a></p>
+
+
 
 <h3 align="center">🎙 The Nature of Precision — Podcast</h3>
 
