@@ -40,20 +40,6 @@
 
 
 
-<h3 align="center">🎙 The Nature of Precision — Podcast</h3>
-
-<p align="center"><em>A podcast discussion on the opening chapter of "The Nature of Precision"</em></p>
-
-<p align="center">🎧 <strong>Now Playing</strong> · 18 min · Persian</p>
-
-<div align="center">
-  <audio controls style="width:100%; max-width:500px;">
-    <source src="https://files.catbox.moe/c4vu6t" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-</div>
-
-<p align="center">🔗 <a href="https://drive.google.com/file/d/1lD88Xh4Q5kVARRB9HELrhvwfJ8e7ZOQd/view?usp=sharing">Listen on Google Drive</a></p>
 
 
 
