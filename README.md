@@ -26,7 +26,7 @@
 <p align="center">🎧 <strong>Now Playing</strong> · 18 min · Persian</p>
 
 <p align="center">
-  <a href="https://github.com/USERNAME/NMTFcoclust/releases/download/TAG/FILENAME.mp3">
+  <a href="sha256:101e521ffea9e8069e9c6f416f27349b256361a84d61278ac5c14e066b6393c7">
     <strong>▶ Download & Listen</strong>
   </a>
 </p>
