@@ -18,55 +18,24 @@
 [![](https://badgen.net/badge/Classic3/Dataset/pink?icon=instgrame)](https://github.com/Saeidhoseinipour/ELBMcoclust/tree/main/Datasets#readme)
 [![](https://badgen.net/badge/Zenodo/DOI/pink?icon=instgrame)](https://doi.org/10.5281/zenodo.21093166)
 
-<h1 align="center">
-  <span style="font-size: 1.5em;">🎙</span> 
-  The Nature of Precision — Podcast
-</h1>
 
-<p align="center">
-  <em>A podcast discussion on the opening chapter of "The Nature of Precision"</em>
-</p>
+
+<h3 align="center">🎙 The Nature of Precision — Podcast</h3>
+
+<p align="center"><em>A podcast discussion on the opening chapter of "The Nature of Precision"</em></p>
+
+<p align="center">🎧 <strong>Now Playing</strong> · 18 min · Persian</p>
 
 <div align="center">
-  <table style="border-collapse: collapse; margin: 0 auto;">
-    <tr>
-      <td style="padding: 12px 24px; background-color: #1a1a2e; color: #fff; border-radius: 12px 12px 0 0; font-size: 14px; letter-spacing: 1px;">
-        🎧 Now Playing · 18 min · Persian
-      </td>
-    </tr>
-    <tr>
-      <td style="background: linear-gradient(135deg, #1a1a2e, #16213e); padding: 20px 24px; border-radius: 0 0 12px 12px; min-width: 320px;">
-        
-        <div style="display: flex; align-items: center; gap: 16px;">
-          
-          <!-- Mic + waveform -->
-          <div style="flex-shrink: 0; text-align: center;">
-            <div style="font-size: 40px; line-height: 1;">🎙️</div>
-            <div style="color: #888; font-size: 10px; margin-top: 4px; letter-spacing: 1px;">PODCAST</div>
-          </div>
-          
-          <!-- Player -->
-          <div style="flex: 1;">
-            <audio controls style="width: 100%; height: 40px; border-radius: 8px;" controlsList="nodownload">
-              <source src="https://files.catbox.moe/c4vu6t" type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
-          </div>
-          
-        </div>
-        
-      </td>
-    </tr>
-  </table>
+  <audio controls style="width:100%; max-width:500px;">
+    <source src="https://files.catbox.moe/c4vu6t" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
 </div>
 
-<br/>
+<p align="center">🔗 <a href="https://drive.google.com/file/d/1lD88Xh4Q5kVARRB9HELrhvwfJ8e7ZOQd/view?usp=sharing">Listen on Google Drive</a></p>
 
-<p align="center">
-  <a href="https://drive.google.com/file/d/1lD88Xh4Q5kVARRB9HELrhvwfJ8e7ZOQd/view?usp=sharing">
-    🔗 Listen on Google Drive
-  </a>
-</p>
+
 
 
 Official implementation of the paper:
