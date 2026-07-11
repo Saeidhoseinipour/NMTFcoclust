@@ -23,25 +23,6 @@
 
 
 
-<h3 align="center">🎙 Podcast of orginal paper</h3>
-
-<p align="center"><em>An AI-generated podcast (NotebookLM) based on the paper in this repository</em></p>
-
-<p align="center">🎧 <strong>Now Playing</strong> · 18 min ·</p>
-
-<p align="center">
-  <a href="https://github.com/Saeidhoseinipour/NMTFcoclust/releases/download/podcast-v1/Grouping_Data_Rows_and_Columns_Simultaneously.m4a">
-    <strong>▶ Download & Listen</strong>
-  </a>
-</p>
-
-
-<p align="center">🔗 <a href="https://drive.google.com/file/d/1lD88Xh4Q5kVARRB9HELrhvwfJ8e7ZOQd/view?usp=sharing">Listen on Google Drive</a></p>
-
-
-
-
-
 
 
 Official implementation of the paper:
@@ -343,6 +324,26 @@ Please cite the following paper in your publication if you are using [**NMTFcocl
 </a>
 
 -->
+
+
+<h3 align="center">🎙 Podcast of orginal paper</h3>
+
+<p align="center"><em>An AI-generated podcast (NotebookLM) based on the paper in this repository</em></p>
+
+<p align="center">🎧 <strong>Now Playing</strong> · 18 min ·</p>
+
+<p align="center">
+  <a href="https://github.com/Saeidhoseinipour/NMTFcoclust/releases/download/podcast-v1/Grouping_Data_Rows_and_Columns_Simultaneously.m4a">
+    <strong>▶ Download & Listen</strong>
+  </a>
+</p>
+
+
+<p align="center">🔗 <a href="https://drive.google.com/file/d/1lD88Xh4Q5kVARRB9HELrhvwfJ8e7ZOQd/view?usp=sharing">Listen on Google Drive</a></p>
+
+
+
+
 
 
 ## References
