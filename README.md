@@ -23,7 +23,7 @@
 
 
 
-<h3 align="center">🎙 Podcast of Orginal paper</h3>
+<h3 align="center">🎙 Podcast of orginal paper</h3>
 
 <p align="center"><em>An AI-generated podcast (NotebookLM) based on the paper in this repository</em></p>
 
