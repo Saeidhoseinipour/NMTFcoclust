@@ -23,11 +23,11 @@
 
 
 
-<h3 align="center">🎙 The Nature of Precision — Podcast</h3>
+<h3 align="center">🎙 Podcast of Orginal paper</h3>
 
-<p align="center"><em>A podcast discussion on the opening chapter of "The Nature of Precision"</em></p>
+<p align="center"><em>An AI-generated podcast (NotebookLM) based on the paper in this repository</em></p>
 
-<p align="center">🎧 <strong>Now Playing</strong> · 18 min · Persian</p>
+<p align="center">🎧 <strong>Now Playing</strong> · 18 min ·</p>
 
 <p align="center">
   <a href="https://github.com/Saeidhoseinipour/NMTFcoclust/releases/download/podcast-v1/Grouping_Data_Rows_and_Columns_Simultaneously.m4a">
