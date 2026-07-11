@@ -20,7 +20,6 @@
 
 
 
-
 <h1 align="center">🎙 The Nature of Precision — Podcast</h1>
 
 <p align="center">
@@ -29,17 +28,14 @@
   <strong>18 minutes · Persian</strong>
 </p>
 
-<audio controls style="width: 100%; max-width: 600px; display: block; margin: 20px auto;">
-  <source src="https://drive.google.com/uc?export=download&id=1lD88Xh4Q5kVARRB9HELrhvwfJ8e7ZOQd" type="audio/mpeg" />
-  Your browser does not support the audio element.
-</audio>
-
-<p align="center">
-  <a href="https://drive.google.com/file/d/1lD88Xh4Q5kVARRB9HELrhvwfJ8e7ZOQd/view?usp=sharing" target="_blank">
-    🔗 Open in Google Drive
-  </a>
-</p>
-
+<div align="center" style="margin: 20px 0;">
+  <iframe src="https://drive.google.com/file/d/1lD88Xh4Q5kVARRB9HELrhvwfJ8e7ZOQd/preview" 
+          width="100%" 
+          height="80" 
+          style="max-width: 600px; border: none; border-radius: 8px;"
+          allow="autoplay">
+  </iframe>
+</div>
 
 
 Official implementation of the paper:
