@@ -20,17 +20,7 @@
 
 
 
-<h3 align="center">🎙 The Nature of Precision — Podcast</h3>
 
-<p align="center"><em>A podcast discussion on the opening chapter of "The Nature of Precision"</em></p>
-
-<p align="center">🎧 <strong>Now Playing</strong> · 18 min · Persian</p>
-
-<div align="center">
-  <audio controls style="width:100%; max-width:500px;">
-    <source src="https://github.com/Saeidhoseinipour/NMTFcoclust/releases/download/podcast-v1/Grouping_Data_Rows_and_Columns_Simultaneously.m4a" type="audio/mp4">
-  </audio>
-</div>
 
 
 <h3 align="center">🎙 The Nature of Precision — Podcast</h3>
@@ -45,49 +35,6 @@
   </a>
 </p>
 
-
-<h3 align="center">🎙 The Nature of Precision — Podcast</h3>
-
-<p align="center"><em>A podcast discussion on the opening chapter of "The Nature of Precision"</em></p>
-
-<p align="center">🎧 <strong>Now Playing</strong> · 18 min · Persian</p>
-
-<div align="center">
-  <audio controls style="width:100%; max-width:500px;">
-    <source src="https://github.com/Saeidhoseinipour/NMTFcoclust/releases/download/podcast-v1/Grouping_Data_Rows_and_Columns_Simultaneously.m4a" type="audio/mpeg">
-  </audio>
-</div>
-
-
-<h3 align="center">🎙 The Nature of Precision — Podcast</h3>
-
-<p align="center"><em>A podcast discussion on the opening chapter of "The Nature of Precision"</em></p>
-
-<p align="center">🎧 <strong>Now Playing</strong> · 18 min · Persian</p>
-
-<div align="center">
-  <iframe src="https://drive.google.com/file/d/1lD88Xh4Q5kVARRB9HELrhvwfJ8e7ZOQd/preview" 
-          width="100%" 
-          height="80" 
-          style="border: none; max-width: 500px; border-radius: 8px;">
-  </iframe>
-</div>
-
-<p align="center">🔗 <a href="https://drive.google.com/file/d/1lD88Xh4Q5kVARRB9HELrhvwfJ8e7ZOQd/view?usp=sharing">Open in Google Drive</a></p>
-
-
-<h3 align="center">🎙 The Nature of Precision — Podcast</h3>
-
-<p align="center"><em>A podcast discussion on the opening chapter of "The Nature of Precision"</em></p>
-
-<p align="center"><strong>18 minutes · Persian</strong></p>
-
-<div align="center">
-  <audio controls style="width:100%; max-width:500px;">
-    <source src="https://files.catbox.moe/c4vu6t" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-</div>
 
 <p align="center">🔗 <a href="https://drive.google.com/file/d/1lD88Xh4Q5kVARRB9HELrhvwfJ8e7ZOQd/view?usp=sharing">Listen on Google Drive</a></p>
 
