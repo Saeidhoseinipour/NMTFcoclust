@@ -19,6 +19,18 @@
 [![](https://badgen.net/badge/Zenodo/DOI/pink?icon=instgrame)](https://doi.org/10.5281/zenodo.21093166)
 
 
+<h3 align="center">🎙 The Nature of Precision — Podcast</h3>
+
+<p align="center"><em>A podcast discussion on the opening chapter of "The Nature of Precision"</em></p>
+
+<p align="center">🎧 <strong>Now Playing</strong> · 18 min · Persian</p>
+
+<p align="center">
+  <a href="https://github.com/USERNAME/NMTFcoclust/releases/download/TAG/FILENAME.mp3">
+    <strong>▶ Download & Listen</strong>
+  </a>
+</p>
+
 
 <h3 align="center">🎙 The Nature of Precision — Podcast</h3>
 
