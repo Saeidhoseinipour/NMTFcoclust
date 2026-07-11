@@ -21,7 +21,24 @@
 
 
 
+<h1 align="center">🎙 The Nature of Precision — Podcast</h1>
 
+<p align="center">
+  <em>A Podcast Discussion on the Opening Chapter of "The Nature of Precision"</em>
+  <br/>
+  <strong>18 minutes · Persian</strong>
+</p>
+
+<audio controls style="width: 100%; max-width: 600px; display: block; margin: 20px auto;">
+  <source src="https://drive.google.com/uc?export=download&id=1lD88Xh4Q5kVARRB9HELrhvwfJ8e7ZOQd" type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio>
+
+<p align="center">
+  <a href="https://drive.google.com/file/d/1lD88Xh4Q5kVARRB9HELrhvwfJ8e7ZOQd/view?usp=sharing" target="_blank">
+    🔗 Open in Google Drive
+  </a>
+</p>
 
 
 
