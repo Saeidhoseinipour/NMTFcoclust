@@ -40,7 +40,6 @@ Download: [![](https://badgen.net/badge/Orginal/Paper/pink?icon=instgrame)](http
 
 
 
-
 **Links**
 - [Available from HAL](https://hal.science/hal-05032037v1/file/OPNMTF_Saeid.pdf "Saeid Hoseinipour, orthogonal parameteric, matrix factorization, co-clustering, text mining, word cloud")
 - [Available from GitHub](https://github.com/Saeidhoseinipour/NMTFcoclust/tree/master/Supplementary%20material "Saeid Hoseinipour, orthogonal parameteric, matrix factorization, co-clustering, text mining, word cloud")
