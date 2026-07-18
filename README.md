@@ -21,6 +21,7 @@
 
 
 
+# **`Orthogonal Parametric Non-negative Matrix Tri-Factorization with α-Divergence for Co-clustering`**
 
 Official implementation of the paper:
 
