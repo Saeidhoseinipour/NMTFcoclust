@@ -18,7 +18,7 @@
 [![](https://badgen.net/badge/Classic3/Dataset/pink?icon=instgrame)](https://github.com/Saeidhoseinipour/ELBMcoclust/tree/main/Datasets#readme)
 [![](https://badgen.net/badge/Zenodo/DOI/pink?icon=instgrame)](https://doi.org/10.5281/zenodo.21093166)
 [![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/Cite/paper/pink?icon=instgrame)](https://github.com/Saeidhoseinipour/NMTFcoclust#cite)
-
+[![https://github.com/Saeidhoseinipour/NMTFcoclust](https://badgen.net/badge/Podcast/AI/pink?icon=instgrame)](https://github.com/Saeidhoseinipour/NMTFcoclust#Podcast_NotebookLM)
 
 
 
@@ -327,7 +327,7 @@ Please cite the following paper in your publication if you are using [**NMTFcocl
 
 -->
 
-
+## Podcast NotebookLM
 <h3 align="center">🎙 Podcast of orginal paper</h3>
 
 <p align="center"><em>An AI-generated podcast (NotebookLM) based on the paper in this repository</em></p>
