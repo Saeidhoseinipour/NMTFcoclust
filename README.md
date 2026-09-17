@@ -351,28 +351,28 @@ Please cite the following paper in your publication if you are using [**NMTFcocl
 
 
 
-
+2
 
 
 ## References
 
-[1] [Wang et al, Penalized nonnegative matrix tri-factorization for co-clustering, **Expert Systems with Applications (2017)**.](https://www.sciencedirect.com/science/article/abs/pii/S0957417417300283)
+[1] [**Wang et al**, Penalized nonnegative matrix tri-factorization for co-clustering, **Expert Systems with Applications (2017)**.](https://www.sciencedirect.com/science/article/abs/pii/S0957417417300283)
 
-[2] [Yoo et al, Orthogonal nonnegative matrix tri-factorization for co-clustering: Multiplicative updates on Stiefel manifolds, **Information Processing and Management** (2010).](https://www.sciencedirect.com/science/article/abs/pii/S0306457310000038)
+[2] [**Yoo et al**, Orthogonal nonnegative matrix tri-factorization for co-clustering: Multiplicative updates on Stiefel manifolds, **Information Processing and Management** (2010).](https://www.sciencedirect.com/science/article/abs/pii/S0306457310000038)
 	
-[3] [Ding et al, Orthogonal nonnegative matrix tri-factorizations for clustering, **Proceedings of the 12th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining** (2008).](https://dl.acm.org/doi/abs/10.1145/1150402.1150420)
+[3] [**Ding et al**, Orthogonal nonnegative matrix tri-factorizations for clustering, **Proceedings of the 12th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining** (2008).](https://dl.acm.org/doi/abs/10.1145/1150402.1150420)
 
-[4] [Long et al, Co-clustering by block value decomposition, **Proceedings of the Eleventh ACM SIGKDD International Conference on Knowledge Discovery in Data Mining** (2005).](https://dl.acm.org/doi/abs/10.1145/1081870.1081949)
+[4] [**Long et al**, Co-clustering by block value decomposition, **Proceedings of the Eleventh ACM SIGKDD International Conference on Knowledge Discovery in Data Mining** (2005).](https://dl.acm.org/doi/abs/10.1145/1081870.1081949)
 
-[5] [Labiod et al, Co-clustering under nonnegative matrix tri-factorization, **International Conference on Neural Information Processing** (2011).](https://link.springer.com/chapter/10.1007/978-3-642-24958-7_82)
+[5] [**Labiod et al**, Co-clustering under nonnegative matrix tri-factorization, **International Conference on Neural Information Processing** (2011).](https://link.springer.com/chapter/10.1007/978-3-642-24958-7_82)
 
-[6] [Li et al, Nonnegative Matrix Factorization on Orthogonal Subspace, **Pattern Recognition Letters** (2010).](sciencedirect.com/science/article/abs/pii/S0167865509003651)
+[6] [**Li et al**, Nonnegative Matrix Factorization on Orthogonal Subspace, **Pattern Recognition Letters** (2010).](sciencedirect.com/science/article/abs/pii/S0167865509003651)
 
-[7] [Li et al, Nonnegative Matrix Factorizations for Clustering: A Survey, **Data Clustering** (2019).](https://www.taylorfrancis.com/chapters/edit/10.1201/9781315373515-7/nonnegative-matrix-factorizations-clustering-survey-tao-li-cha-charis-ding)
+[7] [**Li et al**, Nonnegative Matrix Factorizations for Clustering: A Survey, **Data Clustering** (2019).](https://www.taylorfrancis.com/chapters/edit/10.1201/9781315373515-7/nonnegative-matrix-factorizations-clustering-survey-tao-li-cha-charis-ding)
 
-[8] [Cichocki et al, Non-negative matrix factorization with $\alpha$-divergence, **Pattern Recognition Letters** (2008).](https://www.sciencedirect.com/science/article/abs/pii/S0167865508000767)
+[8] [**Cichocki et al**, Non-negative matrix factorization with $\alpha$-divergence, **Pattern Recognition Letters** (2008).](https://www.sciencedirect.com/science/article/abs/pii/S0167865508000767)
 
-[9] [Saeid, Hoseinipour et al, Orthogonal parametric non-negative matrix tri-factorization with 𝛼-Divergence for co-clustering, **Expert Systems with Applications** (2023).](https://doi.org/10.1016/j.eswa.2023.120680)
+[9] [**Saeid, Hoseinipour et al**, Orthogonal parametric non-negative matrix tri-factorization with 𝛼-Divergence for co-clustering, **Expert Systems with Applications** (2023).](https://doi.org/10.1016/j.eswa.2023.120680)
 
-[10] [Saeid, Hoseinipour et al, A Sparse Exponential Family Latent Block Model for Co-clustering, **Advances in Data Analysis and Classification** (2024).](https://doi.org/10.1007/s11634-024-00608-3)
+[10] [**Saeid, Hoseinipour et a**l, A Sparse Exponential Family Latent Block Model for Co-clustering, **Advances in Data Analysis and Classification** (2024).](https://doi.org/10.1007/s11634-024-00608-3)
 
