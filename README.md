@@ -374,5 +374,5 @@ Please cite the following paper in your publication if you are using [**NMTFcocl
 
 [9] [Saeid, Hoseinipour et al, Orthogonal parametric non-negative matrix tri-factorization with 𝛼-Divergence for co-clustering, Expert Systems with Applications (2023).](https://doi.org/10.1016/j.eswa.2023.120680)
 
-[10] [Hoseinipour et al, A Sparse Exponential Family Latent Block Model for Co-clustering, *Advances in Data Analysis and Classification* (2024).](https://doi.org/10.1007/s11634-024-00608-3)
+[10] [Saeid, Hoseinipour et al, A Sparse Exponential Family Latent Block Model for Co-clustering, *Advances in Data Analysis and Classification* (2024).](https://doi.org/10.1007/s11634-024-00608-3)
 
