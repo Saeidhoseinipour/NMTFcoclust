@@ -22,7 +22,6 @@
 
 
 
-
 # **`NMTFcoclust`**
 
 Official implementation of the paper:
@@ -59,7 +58,6 @@ Download: [![](https://badgen.net/badge/Orginal/Paper/pink?icon=instgrame)](http
 <a href="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF_HAL.pdf">
   <img alt="Screenshot: 'README.md'" src="https://github.com/Saeidhoseinipour/NMTFcoclust/blob/master/OPNMTF.png?raw=true" width="85%">
 </a>
-
 
 
 
