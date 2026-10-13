@@ -124,6 +124,7 @@ NMTFcoclust  implements decomposition on a data matrix 𝐗 (document-word count
 
 
 
+
 ## Brief description of models
 `NMTFcoclust` implements the proposed algorithm (**OPNMTF**) and some NMTF according to the objective functions below:
 - [**OPNMTF**](https://www.sciencedirect.com/science/article/abs/pii/S095741742301182X) 
